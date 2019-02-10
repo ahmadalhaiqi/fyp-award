@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import NomineeList from "./NomineeList";
+import judges from "../data/judges";
 
 class DataEntry extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      judges: [],
+      judges: judges,
       judge: { id: "none", code: "0", name: "" }
     };
 
@@ -14,9 +15,9 @@ class DataEntry extends Component {
   }
 
   componentDidMount() {
-    fetch("/api/judges")
-      .then(res => res.json())
-      .then(judges => this.setState({ judges }));
+    // fetch("/api/judges")
+    //   .then(res => res.json())
+    //   .then(judges => this.setState({ judges }));
   }
 
   onSelect() {

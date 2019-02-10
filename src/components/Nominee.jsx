@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import nominees from "../data/nominees";
 
 class Nominee extends Component {
   constructor(props) {
@@ -19,35 +20,42 @@ class Nominee extends Component {
     this.updateMark = this.updateMark.bind(this);
   }
 
-  componentWillReceiveProps() {
-    this.setState({
-      tab: this.props.nominee.tab,
-      id: this.props.nominee.id,
-      name: this.props.nominee.name,
-      title: this.props.nominee.title,
-      cat: this.props.nominee.cat,
-      marks: this.props.nominee.judges.find(
-        j => j["name"] === this.props.judge.name
-      ).marks
-    });
+  componentDidUpdate(prevProps) {
+    if (this.props !== prevProps) {
+      this.setState({
+        tab: this.props.nominee.tab,
+        id: this.props.nominee.id,
+        name: this.props.nominee.name,
+        title: this.props.nominee.title,
+        cat: this.props.nominee.cat,
+        marks: this.props.nominee.judges.find(
+          j => j["name"] === this.props.judge.name
+        ).marks
+      });
+    }
   }
 
   onSubmit(e) {
     e.preventDefault();
-    fetch("/api/update", {
-      method: "put",
-      headers: {
-        Accept: "application/json",
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({
-        nomineeId: this.state.id,
-        judgeName: this.props.judge.name,
-        marks: this.state.marks
-      })
-    })
-      .then(res => console.log("Response:", res.status))
-      .catch(error => console.error("Error:", error));
+    // fetch("/api/update", {
+    //   method: "put",
+    //   headers: {
+    //     Accept: "application/json",
+    //     "Content-Type": "application/json"
+    //   },
+    //   body: JSON.stringify({
+    //     nomineeId: this.state.id,
+    //     judgeName: this.props.judge.name,
+    //     marks: this.state.marks
+    //   })
+    // })
+    //   .then(res => console.log("Response:", res.status))
+    //   .catch(error => console.error("Error:", error));
+    nominees
+      .find(n => n.id === this.state.id)
+      .judges.find(
+        j => j["name"] === this.props.judge.name
+      ).marks = this.state.marks;
   }
 
   updateMark(e) {
