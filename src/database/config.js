@@ -8,6 +8,7 @@ var config = {
   storageBucket: "fyp-award.appspot.com",
   messagingSenderId: "896387540167"
 };
+
 firebase.initializeApp(config);
 
 const database = firebase.database();
