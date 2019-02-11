@@ -7,7 +7,6 @@ class Nominee extends Component {
 
     let nominee = Object.assign({}, this.props.nominee);
     delete nominee[".key"];
-    console.log(nominee);
     this.state = {
       nominee: nominee,
       marks: this.props.nominee.judges.find(
@@ -23,7 +22,10 @@ class Nominee extends Component {
 
   componentDidUpdate(prevProps) {
     if (this.props !== prevProps) {
+      let nominee = Object.assign({}, this.props.nominee);
+      delete nominee[".key"];
       this.setState({
+        nominee: nominee,
         marks: this.props.nominee.judges.find(
           j => j["name"] === this.props.judge.name
         ).marks
@@ -40,6 +42,7 @@ class Nominee extends Component {
     this.state.nominee.judges.find(
       j => j["name"] === this.props.judge.name
     ).marks = this.state.marks;
+
     this.dbNominees
       .child(this.props.nominee[".key"])
       .update(this.state.nominee);
@@ -57,9 +60,11 @@ class Nominee extends Component {
         <div className="card border-secondary mb-3">
           <div className="card-header">
             <h5>
-              {this.state.name} [ Table: {this.state.tab} ]
+              {this.state.nominee.name} [ Table: {this.state.nominee.tab} ]
             </h5>
-            <div className="small font-italic mt-1">{this.state.title}</div>
+            <div className="small font-italic mt-1">
+              {this.state.nominee.title}
+            </div>
           </div>
           <div className="card-body">
             <form className="form" onSubmit={this.onSubmit}>
@@ -956,8 +961,11 @@ class Nominee extends Component {
                 </div>
                 <div className="row">
                   <button
-                    className="btn btn-primary btn-lg btn-block"
+                    className="btn-default btn-lg btn-block"
                     type="submit"
+                    onClick={() => {
+                      alert("Data Submitted!");
+                    }}
                   >
                     Submit
                   </button>
