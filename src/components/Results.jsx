@@ -4,39 +4,46 @@ import JudgeMarks from "./JudgeMarks";
 import AverageMarks from "./AverageMarks";
 import FinalResult from "./FinalResult";
 import Master from "./Master";
+import judges from "../data/judges";
+import { database } from "../database/config.js";
 
 class Results extends Component {
-  state = {
-    judges: [],
-    nominees: []
-  };
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      judges: [],
+      nominees: []
+    };
+
+    this.dbNominees = database.ref().child("nominees");
+  }
 
   fetchData() {
-    fetch("/api/judges")
-      .then(res => res.json())
-      .then(judges =>
-        this.setState({
-          judges: judges.filter(j => j.dept === this.props.dept)
-        })
-      );
+    this.setState({
+      judges: judges.filter(j => j.dept === this.props.dept)
+    });
 
-    fetch("/api/nominees")
-      .then(res => res.json())
-      .then(nominees =>
-        this.setState({
-          nominees: nominees.filter(
-            n => n.dept === this.props.dept && n.cat === this.props.cat
-          )
-        })
-      );
+    this.dbNominees.once("value", dataSnapshot => {
+      let nominees = dataSnapshot.val();
+      this.setState({
+        nominees: nominees.filter(
+          n => n.dept === this.props.dept && n.cat === this.props.cat
+        )
+      });
+    });
   }
 
   componentDidMount() {
     this.fetchData();
   }
 
-  componentWillReceiveProps() {
-    this.fetchData();
+  componentDidUpdate(prevProps, prevState, snapshot) {
+    if (this.props !== prevProps) this.fetchData();
+  }
+
+  componentWillUnmount() {
+    this.dbNominees.off();
   }
 
   render() {

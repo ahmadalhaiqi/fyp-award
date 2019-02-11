@@ -14,12 +14,6 @@ class DataEntry extends Component {
     this.onSelect = this.onSelect.bind(this);
   }
 
-  componentDidMount() {
-    // fetch("/api/judges")
-    //   .then(res => res.json())
-    //   .then(judges => this.setState({ judges }));
-  }
-
   onSelect() {
     this.setState({
       judge: {

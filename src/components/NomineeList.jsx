@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import { Route, NavLink } from "react-router-dom";
 import Nominee from "./Nominee";
-//import TempList from "./TempList";
-import nominees from "../data/nominees";
+import { database } from "../database/config.js";
 
 class NomineeList extends Component {
   constructor(props) {
@@ -11,34 +10,35 @@ class NomineeList extends Component {
     this.state = {
       nominees: []
     };
+
+    this.dbNominees = database.ref().child("nominees");
   }
 
-  updateNominees() {
-    // fetch("/api/nominees")
-    //   .then(res => res.json())
-    //   .then(nominees =>
-    //     this.setState({
-    //       nominees: nominees.filter(nominee =>
-    //         nominee.judges.find(j => j["name"] === this.props.judge.name)
-    //       )
-    //     })
-    //   );
-    this.setState({
-      nominees: nominees.filter(nominee =>
-        nominee.judges.find(j => j["name"] === this.props.judge.name)
-      )
+  componentDidMount() {
+    this.dbNominees.on("value", dataSnapshot => {
+      let nominees = [];
+
+      dataSnapshot.forEach(childSnapshot => {
+        let nominee = childSnapshot.val();
+        nominee[".key"] = childSnapshot.key;
+        nominees.push(nominee);
+      });
+
+      this.setState({
+        nominees: nominees.filter(nominee =>
+          nominee.judges.find(j => j["name"] === this.props.judge.name)
+        )
+      });
     });
   }
-  componentDidMount() {
-    this.updateNominees();
-  }
 
-  componentWillReceiveProps() {
-    this.updateNominees();
+  componentWillUnmount() {
+    this.dbNominees.off();
   }
 
   render() {
     const nominees = this.state.nominees;
+
     return (
       <div className="container-fluid">
         <div className="lead mt-2 mb-2">

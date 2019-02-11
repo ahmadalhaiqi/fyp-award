@@ -1,20 +1,21 @@
 import React, { Component } from "react";
-import nominees from "../data/nominees";
+import { database } from "../database/config.js";
 
 class Nominee extends Component {
   constructor(props) {
     super(props);
 
+    let nominee = Object.assign({}, this.props.nominee);
+    delete nominee[".key"];
+    console.log(nominee);
     this.state = {
-      tab: this.props.nominee.tab,
-      id: this.props.nominee.id,
-      name: this.props.nominee.name,
-      title: this.props.nominee.title,
-      cat: this.props.nominee.cat,
+      nominee: nominee,
       marks: this.props.nominee.judges.find(
         j => j["name"] === this.props.judge.name
       ).marks
     };
+
+    this.dbNominees = database.ref().child("nominees");
 
     this.onSubmit = this.onSubmit.bind(this);
     this.updateMark = this.updateMark.bind(this);
@@ -23,11 +24,6 @@ class Nominee extends Component {
   componentDidUpdate(prevProps) {
     if (this.props !== prevProps) {
       this.setState({
-        tab: this.props.nominee.tab,
-        id: this.props.nominee.id,
-        name: this.props.nominee.name,
-        title: this.props.nominee.title,
-        cat: this.props.nominee.cat,
         marks: this.props.nominee.judges.find(
           j => j["name"] === this.props.judge.name
         ).marks
@@ -35,27 +31,18 @@ class Nominee extends Component {
     }
   }
 
+  componentWillUnmount() {
+    this.dbNominees.off();
+  }
+
   onSubmit(e) {
     e.preventDefault();
-    // fetch("/api/update", {
-    //   method: "put",
-    //   headers: {
-    //     Accept: "application/json",
-    //     "Content-Type": "application/json"
-    //   },
-    //   body: JSON.stringify({
-    //     nomineeId: this.state.id,
-    //     judgeName: this.props.judge.name,
-    //     marks: this.state.marks
-    //   })
-    // })
-    //   .then(res => console.log("Response:", res.status))
-    //   .catch(error => console.error("Error:", error));
-    nominees
-      .find(n => n.id === this.state.id)
-      .judges.find(
-        j => j["name"] === this.props.judge.name
-      ).marks = this.state.marks;
+    this.state.nominee.judges.find(
+      j => j["name"] === this.props.judge.name
+    ).marks = this.state.marks;
+    this.dbNominees
+      .child(this.props.nominee[".key"])
+      .update(this.state.nominee);
   }
 
   updateMark(e) {

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { database } from "../database/config.js";
 
 class Master extends Component {
   totals = [];
@@ -8,45 +9,28 @@ class Master extends Component {
 
     this.state = {
       nominees: [],
-      master: {
-        ce_structure_best_winner: {},
-        ce_highway_innovative_winner: {},
-        ce_highway_technical_winner: {},
-        ce_highway_marketable_winner: {},
-        ce_water_innovative_winner: {},
-        ce_water_technical_winner: {},
-        ce_water_marketable_winner: {},
-        ce_overall_winner: {},
-        me_modelling_best_winner: {},
-        me_design_innovative_winner: {},
-        me_design_technical_winner: {},
-        me_design_marketable_winner: {},
-        me_experimental_innovative_winner: {},
-        me_experimental_technical_winner: {},
-        me_experimental_marketable_winner: {},
-        me_overall_winner: {},
-        eeep_software_innovative_winner: {},
-        eeep_software_technical_winner: {},
-        eeep_software_marketable_winner: {},
-        eeep_system_innovative_winner: {},
-        eeep_system_technical_winner: {},
-        eeep_system_marketable_winner: {},
-        eeep_research_innovative_winner: {},
-        eeep_research_technical_winner: {},
-        eeep_research_marketable_winner: {},
-        eeep_overall_winner: {}
-      }
+      master: {}
     };
+
+    this.dbNominees = database.ref().child("nominees");
+    this.dbMaster = database.ref().child("master");
   }
 
   componentDidMount() {
-    fetch("/api/nominees")
-      .then(res => res.json())
-      .then(nominees => this.setState({ nominees }));
+    this.dbNominees.once("value", dataSnapshot => {
+      let nominees = dataSnapshot.val();
+      this.setState({ nominees });
+    });
 
-    fetch("/api/master")
-      .then(res => res.json())
-      .then(master => this.setState({ master }));
+    this.dbMaster.once("value", dataSnapshot => {
+      let master = dataSnapshot.val();
+      this.setState({ master });
+    });
+  }
+
+  componentWillUnmount() {
+    this.dbNominees.off();
+    this.dbMaster.off();
   }
 
   render() {
@@ -104,7 +88,7 @@ class Master extends Component {
     return (
       <div className="container-fluid">
         <h5 className="btn btn-danger">
-          Master Results Sheet - FYP AWARD Semester 1 2018/19, 25 September 2018
+          Master Results Sheet - FYP AWARD Semester 2 2018/19,19 February 2019
         </h5>
 
         <table className="table table-bordered table-responsive-md m-2">
@@ -130,24 +114,60 @@ class Master extends Component {
             </tr>
             <tr>
               <th>The Most Innovative Winner</th>
-              <td>{master.ce_highway_innovative_winner.name}</td>
-              <td>{master.ce_highway_innovative_winner.title}</td>
-              <td>{master.ce_highway_innovative_winner.supervisor}</td>
-              <td>{master.ce_highway_innovative_winner.innovative_total}</td>
+              <td>
+                {master.ce_highway_innovative_winner &&
+                  master.ce_highway_innovative_winner.name}
+              </td>
+              <td>
+                {master.ce_highway_innovative_winner &&
+                  master.ce_highway_innovative_winner.title}
+              </td>
+              <td>
+                {master.ce_highway_innovative_winner &&
+                  master.ce_highway_innovative_winner.supervisor}
+              </td>
+              <td>
+                {master.ce_highway_innovative_winner &&
+                  master.ce_highway_innovative_winner.innovative_total}
+              </td>
             </tr>
             <tr>
               <th>The Most Technical Winner</th>
-              <td>{master.ce_highway_technical_winner.name}</td>
-              <td>{master.ce_highway_technical_winner.title}</td>
-              <td>{master.ce_highway_technical_winner.supervisor}</td>
-              <td>{master.ce_highway_technical_winner.technical_total}</td>
+              <td>
+                {master.ce_highway_technical_winner &&
+                  master.ce_highway_technical_winner.name}
+              </td>
+              <td>
+                {master.ce_highway_technical_winner &&
+                  master.ce_highway_technical_winner.title}
+              </td>
+              <td>
+                {master.ce_highway_technical_winner &&
+                  master.ce_highway_technical_winner.supervisor}
+              </td>
+              <td>
+                {master.ce_highway_technical_winner &&
+                  master.ce_highway_technical_winner.technical_total}
+              </td>
             </tr>
             <tr>
               <th>The Most Marketable Winner</th>
-              <td>{master.ce_highway_marketable_winner.name}</td>
-              <td>{master.ce_highway_marketable_winner.title}</td>
-              <td>{master.ce_highway_marketable_winner.supervisor}</td>
-              <td>{master.ce_highway_marketable_winner.marketable_total}</td>
+              <td>
+                {master.ce_highway_marketable_winner &&
+                  master.ce_highway_marketable_winner.name}
+              </td>
+              <td>
+                {master.ce_highway_marketable_winner &&
+                  master.ce_highway_marketable_winner.title}
+              </td>
+              <td>
+                {master.ce_highway_marketable_winner &&
+                  master.ce_highway_marketable_winner.supervisor}
+              </td>
+              <td>
+                {master.ce_highway_marketable_winner &&
+                  master.ce_highway_marketable_winner.marketable_total}
+              </td>
             </tr>
 
             <tr>
@@ -157,24 +177,60 @@ class Master extends Component {
             </tr>
             <tr>
               <th>The Most Innovative Winner</th>
-              <td>{master.ce_water_innovative_winner.name}</td>
-              <td>{master.ce_water_innovative_winner.title}</td>
-              <td>{master.ce_water_innovative_winner.supervisor}</td>
-              <td>{master.ce_water_innovative_winner.innovative_total}</td>
+              <td>
+                {master.ce_water_innovative_winner &&
+                  master.ce_water_innovative_winner.name}
+              </td>
+              <td>
+                {master.ce_water_innovative_winner &&
+                  master.ce_water_innovative_winner.title}
+              </td>
+              <td>
+                {master.ce_water_innovative_winner &&
+                  master.ce_water_innovative_winner.supervisor}
+              </td>
+              <td>
+                {master.ce_water_innovative_winner &&
+                  master.ce_water_innovative_winner.innovative_total}
+              </td>
             </tr>
             <tr>
               <th>The Most Technical Winner</th>
-              <td>{master.ce_water_technical_winner.name}</td>
-              <td>{master.ce_water_technical_winner.title}</td>
-              <td>{master.ce_water_technical_winner.supervisor}</td>
-              <td>{master.ce_water_technical_winner.technical_total}</td>
+              <td>
+                {master.ce_water_technical_winner &&
+                  master.ce_water_technical_winner.name}
+              </td>
+              <td>
+                {master.ce_water_technical_winner &&
+                  master.ce_water_technical_winner.title}
+              </td>
+              <td>
+                {master.ce_water_technical_winner &&
+                  master.ce_water_technical_winner.supervisor}
+              </td>
+              <td>
+                {master.ce_water_technical_winner &&
+                  master.ce_water_technical_winner.technical_total}
+              </td>
             </tr>
             <tr>
               <th>The Most Marketable Winner</th>
-              <td>{master.ce_water_marketable_winner.name}</td>
-              <td>{master.ce_water_marketable_winner.title}</td>
-              <td>{master.ce_water_marketable_winner.supervisor}</td>
-              <td>{master.ce_water_marketable_winner.marketable_total}</td>
+              <td>
+                {master.ce_water_marketable_winner &&
+                  master.ce_water_marketable_winner.name}
+              </td>
+              <td>
+                {master.ce_water_marketable_winner &&
+                  master.ce_water_marketable_winner.title}
+              </td>
+              <td>
+                {master.ce_water_marketable_winner &&
+                  master.ce_water_marketable_winner.supervisor}
+              </td>
+              <td>
+                {master.ce_water_marketable_winner &&
+                  master.ce_water_marketable_winner.marketable_total}
+              </td>
             </tr>
 
             <tr>
@@ -184,10 +240,22 @@ class Master extends Component {
             </tr>
             <tr>
               <th>Best Structure & Materials Project</th>
-              <td>{master.ce_structure_best_winner.name}</td>
-              <td>{master.ce_structure_best_winner.title}</td>
-              <td>{master.ce_structure_best_winner.supervisor}</td>
-              <td>{master.ce_structure_best_winner.innovative_total}</td>
+              <td>
+                {master.ce_structure_best_winner &&
+                  master.ce_structure_best_winner.name}
+              </td>
+              <td>
+                {master.ce_structure_best_winner &&
+                  master.ce_structure_best_winner.title}
+              </td>
+              <td>
+                {master.ce_structure_best_winner &&
+                  master.ce_structure_best_winner.supervisor}
+              </td>
+              <td>
+                {master.ce_structure_best_winner &&
+                  master.ce_structure_best_winner.innovative_total}
+              </td>
             </tr>
 
             <tr>
@@ -237,24 +305,60 @@ class Master extends Component {
             </tr>
             <tr>
               <th>The Most Innovative Winner</th>
-              <td>{master.me_design_innovative_winner.name}</td>
-              <td>{master.me_design_innovative_winner.title}</td>
-              <td>{master.me_design_innovative_winner.supervisor}</td>
-              <td>{master.me_design_innovative_winner.innovative_total}</td>
+              <td>
+                {master.me_design_innovative_winner &&
+                  master.me_design_innovative_winner.name}
+              </td>
+              <td>
+                {master.me_design_innovative_winner &&
+                  master.me_design_innovative_winner.title}
+              </td>
+              <td>
+                {master.me_design_innovative_winner &&
+                  master.me_design_innovative_winner.supervisor}
+              </td>
+              <td>
+                {master.me_design_innovative_winner &&
+                  master.me_design_innovative_winner.innovative_total}
+              </td>
             </tr>
             <tr>
               <th>The Most Technical Winner</th>
-              <td>{master.me_design_technical_winner.name}</td>
-              <td>{master.me_design_technical_winner.title}</td>
-              <td>{master.me_design_technical_winner.supervisor}</td>
-              <td>{master.me_design_technical_winner.technical_total}</td>
+              <td>
+                {master.me_design_technical_winner &&
+                  master.me_design_technical_winner.name}
+              </td>
+              <td>
+                {master.me_design_technical_winner &&
+                  master.me_design_technical_winner.title}
+              </td>
+              <td>
+                {master.me_design_technical_winner &&
+                  master.me_design_technical_winner.supervisor}
+              </td>
+              <td>
+                {master.me_design_technical_winner &&
+                  master.me_design_technical_winner.technical_total}
+              </td>
             </tr>
             <tr>
               <th>The Most Marketable Winner</th>
-              <td>{master.me_design_marketable_winner.name}</td>
-              <td>{master.me_design_marketable_winner.title}</td>
-              <td>{master.me_design_marketable_winner.supervisor}</td>
-              <td>{master.me_design_marketable_winner.marketable_total}</td>
+              <td>
+                {master.me_design_marketable_winner &&
+                  master.me_design_marketable_winner.name}
+              </td>
+              <td>
+                {master.me_design_marketable_winner &&
+                  master.me_design_marketable_winner.title}
+              </td>
+              <td>
+                {master.me_design_marketable_winner &&
+                  master.me_design_marketable_winner.supervisor}
+              </td>
+              <td>
+                {master.me_design_marketable_winner &&
+                  master.me_design_marketable_winner.marketable_total}
+              </td>
             </tr>
 
             <tr>
@@ -264,27 +368,59 @@ class Master extends Component {
             </tr>
             <tr>
               <th>The Most Innovative Winner</th>
-              <td>{master.me_experimental_innovative_winner.name}</td>
-              <td>{master.me_experimental_innovative_winner.title}</td>
-              <td>{master.me_experimental_innovative_winner.supervisor}</td>
               <td>
-                {master.me_experimental_innovative_winner.innovative_total}
+                {master.me_experimental_innovative_winner &&
+                  master.me_experimental_innovative_winner.name}
+              </td>
+              <td>
+                {master.me_experimental_innovative_winner &&
+                  master.me_experimental_innovative_winner.title}
+              </td>
+              <td>
+                {master.me_experimental_innovative_winner &&
+                  master.me_experimental_innovative_winner.supervisor}
+              </td>
+              <td>
+                {master.me_experimental_innovative_winner &&
+                  master.me_experimental_innovative_winner.innovative_total}
               </td>
             </tr>
             <tr>
               <th>The Most Technical Winner</th>
-              <td>{master.me_experimental_technical_winner.name}</td>
-              <td>{master.me_experimental_technical_winner.title}</td>
-              <td>{master.me_experimental_technical_winner.supervisor}</td>
-              <td>{master.me_experimental_technical_winner.technical_total}</td>
+              <td>
+                {master.me_experimental_technical_winner &&
+                  master.me_experimental_technical_winner.name}
+              </td>
+              <td>
+                {master.me_experimental_technical_winner &&
+                  master.me_experimental_technical_winner.title}
+              </td>
+              <td>
+                {master.me_experimental_technical_winner &&
+                  master.me_experimental_technical_winner.supervisor}
+              </td>
+              <td>
+                {master.me_experimental_technical_winner &&
+                  master.me_experimental_technical_winner.technical_total}
+              </td>
             </tr>
             <tr>
               <th>The Most Marketable Winner</th>
-              <td>{master.me_experimental_marketable_winner.name}</td>
-              <td>{master.me_experimental_marketable_winner.title}</td>
-              <td>{master.me_experimental_marketable_winner.supervisor}</td>
               <td>
-                {master.me_experimental_marketable_winner.marketable_total}
+                {master.me_experimental_marketable_winner &&
+                  master.me_experimental_marketable_winner.name}
+              </td>
+              <td>
+                {master.me_experimental_marketable_winner &&
+                  master.me_experimental_marketable_winner.title}
+              </td>
+              <td>
+                {master.me_experimental_marketable_winner &&
+                  master.me_experimental_marketable_winner.supervisor}
+              </td>
+              <td>
+                {master.me_experimental_marketable_winner &&
+                  master.me_experimental_marketable_winner.marketable_total}
               </td>
             </tr>
 
@@ -295,10 +431,22 @@ class Master extends Component {
             </tr>
             <tr>
               <th>Best Modelling & Simulation Project</th>
-              <td>{master.me_modelling_best_winner.name}</td>
-              <td>{master.me_modelling_best_winner.title}</td>
-              <td>{master.me_modelling_best_winner.supervisor}</td>
-              <td>{master.me_modelling_best_winner.innovative_total}</td>
+              <td>
+                {master.me_modelling_best_winner &&
+                  master.me_modelling_best_winner.name}
+              </td>
+              <td>
+                {master.me_modelling_best_winner &&
+                  master.me_modelling_best_winner.title}
+              </td>
+              <td>
+                {master.me_modelling_best_winner &&
+                  master.me_modelling_best_winner.supervisor}
+              </td>
+              <td>
+                {master.me_modelling_best_winner &&
+                  master.me_modelling_best_winner.innovative_total}
+              </td>
             </tr>
 
             <tr>
@@ -348,24 +496,60 @@ class Master extends Component {
             </tr>
             <tr>
               <th>The Most Innovative Winner</th>
-              <td>{master.eeep_software_innovative_winner.name}</td>
-              <td>{master.eeep_software_innovative_winner.title}</td>
-              <td>{master.eeep_software_innovative_winner.supervisor}</td>
-              <td>{master.eeep_software_innovative_winner.innovative_total}</td>
+              <td>
+                {master.eeep_software_innovative_winner &&
+                  master.eeep_software_innovative_winner.name}
+              </td>
+              <td>
+                {master.eeep_software_innovative_winner &&
+                  master.eeep_software_innovative_winner.title}
+              </td>
+              <td>
+                {master.eeep_software_innovative_winner &&
+                  master.eeep_software_innovative_winner.supervisor}
+              </td>
+              <td>
+                {master.eeep_software_innovative_winner &&
+                  master.eeep_software_innovative_winner.innovative_total}
+              </td>
             </tr>
             <tr>
               <th>The Most Technical Winner</th>
-              <td>{master.eeep_software_technical_winner.name}</td>
-              <td>{master.eeep_software_technical_winner.title}</td>
-              <td>{master.eeep_software_technical_winner.supervisor}</td>
-              <td>{master.eeep_software_technical_winner.technical_total}</td>
+              <td>
+                {master.eeep_software_technical_winner &&
+                  master.eeep_software_technical_winner.name}
+              </td>
+              <td>
+                {master.eeep_software_technical_winner &&
+                  master.eeep_software_technical_winner.title}
+              </td>
+              <td>
+                {master.eeep_software_technical_winner &&
+                  master.eeep_software_technical_winner.supervisor}
+              </td>
+              <td>
+                {master.eeep_software_technical_winner &&
+                  master.eeep_software_technical_winner.technical_total}
+              </td>
             </tr>
             <tr>
               <th>The Most Marketable Winner</th>
-              <td>{master.eeep_software_marketable_winner.name}</td>
-              <td>{master.eeep_software_marketable_winner.title}</td>
-              <td>{master.eeep_software_marketable_winner.supervisor}</td>
-              <td>{master.eeep_software_marketable_winner.marketable_total}</td>
+              <td>
+                {master.eeep_software_marketable_winner &&
+                  master.eeep_software_marketable_winner.name}
+              </td>
+              <td>
+                {master.eeep_software_marketable_winner &&
+                  master.eeep_software_marketable_winner.title}
+              </td>
+              <td>
+                {master.eeep_software_marketable_winner &&
+                  master.eeep_software_marketable_winner.supervisor}
+              </td>
+              <td>
+                {master.eeep_software_marketable_winner &&
+                  master.eeep_software_marketable_winner.marketable_total}
+              </td>
             </tr>
 
             <tr>
@@ -375,24 +559,60 @@ class Master extends Component {
             </tr>
             <tr>
               <th>The Most Innovative Winner</th>
-              <td>{master.eeep_system_innovative_winner.name}</td>
-              <td>{master.eeep_system_innovative_winner.title}</td>
-              <td>{master.eeep_system_innovative_winner.supervisor}</td>
-              <td>{master.eeep_system_innovative_winner.innovative_total}</td>
+              <td>
+                {master.eeep_system_innovative_winner &&
+                  master.eeep_system_innovative_winner.name}
+              </td>
+              <td>
+                {master.eeep_system_innovative_winner &&
+                  master.eeep_system_innovative_winner.title}
+              </td>
+              <td>
+                {master.eeep_system_innovative_winner &&
+                  master.eeep_system_innovative_winner.supervisor}
+              </td>
+              <td>
+                {master.eeep_system_innovative_winner &&
+                  master.eeep_system_innovative_winner.innovative_total}
+              </td>
             </tr>
             <tr>
               <th>The Most Technical Winner</th>
-              <td>{master.eeep_system_technical_winner.name}</td>
-              <td>{master.eeep_system_technical_winner.title}</td>
-              <td>{master.eeep_system_technical_winner.supervisor}</td>
-              <td>{master.eeep_system_technical_winner.technical_total}</td>
+              <td>
+                {master.eeep_system_technical_winner &&
+                  master.eeep_system_technical_winner.name}
+              </td>
+              <td>
+                {master.eeep_system_technical_winner &&
+                  master.eeep_system_technical_winner.title}
+              </td>
+              <td>
+                {master.eeep_system_technical_winner &&
+                  master.eeep_system_technical_winner.supervisor}
+              </td>
+              <td>
+                {master.eeep_system_technical_winner &&
+                  master.eeep_system_technical_winner.technical_total}
+              </td>
             </tr>
             <tr>
               <th>The Most Marketable Winner</th>
-              <td>{master.eeep_system_marketable_winner.name}</td>
-              <td>{master.eeep_system_marketable_winner.title}</td>
-              <td>{master.eeep_system_marketable_winner.supervisor}</td>
-              <td>{master.eeep_system_marketable_winner.marketable_total}</td>
+              <td>
+                {master.eeep_system_marketable_winner &&
+                  master.eeep_system_marketable_winner.name}
+              </td>
+              <td>
+                {master.eeep_system_marketable_winner &&
+                  master.eeep_system_marketable_winner.title}
+              </td>
+              <td>
+                {master.eeep_system_marketable_winner &&
+                  master.eeep_system_marketable_winner.supervisor}
+              </td>
+              <td>
+                {master.eeep_system_marketable_winner &&
+                  master.eeep_system_marketable_winner.marketable_total}
+              </td>
             </tr>
 
             <tr>
@@ -402,24 +622,60 @@ class Master extends Component {
             </tr>
             <tr>
               <th>The Most Innovative Winner</th>
-              <td>{master.eeep_research_innovative_winner.name}</td>
-              <td>{master.eeep_research_innovative_winner.title}</td>
-              <td>{master.eeep_research_innovative_winner.supervisor}</td>
-              <td>{master.eeep_research_innovative_winner.innovative_total}</td>
+              <td>
+                {master.eeep_research_innovative_winner &&
+                  master.eeep_research_innovative_winner.name}
+              </td>
+              <td>
+                {master.eeep_research_innovative_winner &&
+                  master.eeep_research_innovative_winner.title}
+              </td>
+              <td>
+                {master.eeep_research_innovative_winner &&
+                  master.eeep_research_innovative_winner.supervisor}
+              </td>
+              <td>
+                {master.eeep_research_innovative_winner &&
+                  master.eeep_research_innovative_winner.innovative_total}
+              </td>
             </tr>
             <tr>
               <th>The Most Technical Winner</th>
-              <td>{master.eeep_research_technical_winner.name}</td>
-              <td>{master.eeep_research_technical_winner.title}</td>
-              <td>{master.eeep_research_technical_winner.supervisor}</td>
-              <td>{master.eeep_research_technical_winner.technical_total}</td>
+              <td>
+                {master.eeep_research_technical_winner &&
+                  master.eeep_research_technical_winner.name}
+              </td>
+              <td>
+                {master.eeep_research_technical_winner &&
+                  master.eeep_research_technical_winner.title}
+              </td>
+              <td>
+                {master.eeep_research_technical_winner &&
+                  master.eeep_research_technical_winner.supervisor}
+              </td>
+              <td>
+                {master.eeep_research_technical_winner &&
+                  master.eeep_research_technical_winner.technical_total}
+              </td>
             </tr>
             <tr>
               <th>The Most Marketable Winner</th>
-              <td>{master.eeep_research_marketable_winner.name}</td>
-              <td>{master.eeep_research_marketable_winner.title}</td>
-              <td>{master.eeep_research_marketable_winner.supervisor}</td>
-              <td>{master.eeep_research_marketable_winner.marketable_total}</td>
+              <td>
+                {master.eeep_research_marketable_winner &&
+                  master.eeep_research_marketable_winner.name}
+              </td>
+              <td>
+                {master.eeep_research_marketable_winner &&
+                  master.eeep_research_marketable_winner.title}
+              </td>
+              <td>
+                {master.eeep_research_marketable_winner &&
+                  master.eeep_research_marketable_winner.supervisor}
+              </td>
+              <td>
+                {master.eeep_research_marketable_winner &&
+                  master.eeep_research_marketable_winner.marketable_total}
+              </td>
             </tr>
 
             <tr>

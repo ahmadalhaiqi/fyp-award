@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { database } from "../database/config.js";
 
 class FinalResult extends Component {
   totals = [];
@@ -14,6 +15,8 @@ class FinalResult extends Component {
       overall_winner: {},
       total_winner: {}
     };
+
+    this.dbMaster = database.ref().child("master");
 
     this.onClickInnovative = this.onClickInnovative.bind(this);
     this.onClickTechnical = this.onClickTechnical.bind(this);
@@ -54,119 +57,99 @@ class FinalResult extends Component {
   }
 
   onSave = () => {
-    let data = {};
+    let data = [];
     switch (this.props.dept) {
       case "CE":
         switch (this.props.cat) {
           case "Structure & Materials":
-            data = {
-              ce_structure_best_winner: this.total_winner
-            };
+            data["ce_structure_best_winner"] = this.total_winner;
             break;
           case "Highway & Geotechnical":
-            data = {
-              ce_highway_innovative_winner: this.state.innovative_winner,
-              ce_highway_technical_winner: this.state.technical_winner,
-              ce_highway_marketable_winner: this.state.marketable_winner
-            };
+            data["ce_highway_innovative_winner"] = this.state.innovative_winner;
+            data["ce_highway_technical_winner"] = this.state.technical_winner;
+            data["ce_highway_marketable_winner"] = this.state.marketable_winner;
             break;
           case "Water & Waste-water":
-            data = {
-              ce_water_innovative_winner: this.state.innovative_winner,
-              ce_water_technical_winner: this.state.technical_winner,
-              ce_water_marketable_winner: this.state.marketable_winner
-            };
+            data["ce_water_innovative_winner"] = this.state.innovative_winner;
+            data["ce_water_technical_winner"] = this.state.technical_winner;
+            data["ce_water_marketable_winner"] = this.state.marketable_winner;
             break;
           default:
             break;
         }
-        fetch("/api/master-ce", {
-          method: "put",
-          headers: {
-            Accept: "application/json",
-            "Content-Type": "application/json"
-          },
-          body: JSON.stringify({ ...data, cat: this.props.cat })
-        })
-          .then(res => console.log("Response:", res.status))
-          .catch(error => console.error("Error:", error));
         break;
       case "ME":
         switch (this.props.cat) {
           case "Modelling & Simulation":
-            data = {
-              me_modelling_best_winner: this.total_winner
-            };
+            data["me_modelling_best_winner"] = this.total_winner;
             break;
           case "Design & Analysis":
-            data = {
-              me_design_innovative_winner: this.state.innovative_winner,
-              me_design_technical_winner: this.state.technical_winner,
-              me_design_marketable_winner: this.state.marketable_winner
-            };
+            data["me_design_innovative_winner"] = this.state.innovative_winner;
+            data["me_design_technical_winner"] = this.state.technical_winner;
+            data["me_design_marketable_winner"] = this.state.marketable_winner;
             break;
           case "Experimental Research":
-            data = {
-              me_experimental_innovative_winner: this.state.innovative_winner,
-              me_experimental_technical_winner: this.state.technical_winner,
-              me_experimental_marketable_winner: this.state.marketable_winner
-            };
+            data[
+              "me_experimental_innovative_winner"
+            ] = this.state.innovative_winner;
+            data[
+              "me_experimental_technical_winner"
+            ] = this.state.technical_winner;
+            data[
+              "me_experimental_marketable_winner"
+            ] = this.state.marketable_winner;
             break;
           default:
             break;
         }
-        fetch("/api/master-me", {
-          method: "put",
-          headers: {
-            Accept: "application/json",
-            "Content-Type": "application/json"
-          },
-          body: JSON.stringify({ ...data, cat: this.props.cat })
-        })
-          .then(res => console.log("Response:", res.status))
-          .catch(error => console.error("Error:", error));
         break;
       case "EEEP":
         switch (this.props.cat) {
           case "Software Development":
-            data = {
-              eeep_software_innovative_winner: this.state.innovative_winner,
-              eeep_software_technical_winner: this.state.technical_winner,
-              eeep_software_marketable_winner: this.state.marketable_winner
-            };
+            data[
+              "eeep_software_innovative_winner"
+            ] = this.state.innovative_winner;
+            data[
+              "eeep_software_technical_winner"
+            ] = this.state.technical_winner;
+            data[
+              "eeep_software_marketable_winner"
+            ] = this.state.marketable_winner;
             break;
-          case "Design & Analysis":
-            data = {
-              eeep_system_innovative_winner: this.state.innovative_winner,
-              eeep_system_technical_winner: this.state.technical_winner,
-              eeep_system_marketable_winner: this.state.marketable_winner
-            };
+          case "System Design":
+            data[
+              "eeep_system_innovative_winner"
+            ] = this.state.innovative_winner;
+            data["eeep_system_technical_winner"] = this.state.technical_winner;
+            data[
+              "eeep_system_marketable_winner"
+            ] = this.state.marketable_winner;
             break;
-          case "Experimental Research":
-            data = {
-              eeep_research_innovative_winner: this.state.innovative_winner,
-              eeep_research_technical_winner: this.state.technical_winner,
-              eeep_research_marketable_winner: this.state.marketable_winner
-            };
+          case "Research & Development":
+            data[
+              "eeep_research_innovative_winner"
+            ] = this.state.innovative_winner;
+            data[
+              "eeep_research_technical_winner"
+            ] = this.state.technical_winner;
+            data[
+              "eeep_research_marketable_winner"
+            ] = this.state.marketable_winner;
             break;
           default:
             break;
         }
-        fetch("/api/master-eeep", {
-          method: "put",
-          headers: {
-            Accept: "application/json",
-            "Content-Type": "application/json"
-          },
-          body: JSON.stringify({ ...data, cat: this.props.cat })
-        })
-          .then(res => console.log("Response:", res.status))
-          .catch(error => console.error("Error:", error));
         break;
       default:
         break;
     }
+
+    for (let key in data) this.dbMaster.child(key).update(data[key]);
   };
+
+  componentWillUnmount() {
+    this.dbMaster.off();
+  }
 
   render() {
     this.totals = [];
