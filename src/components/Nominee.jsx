@@ -46,6 +46,8 @@ class Nominee extends Component {
     this.dbNominees
       .child(this.props.nominee[".key"])
       .update(this.state.nominee);
+
+    window.scrollTo(0, 0);
   }
 
   updateMark(e) {

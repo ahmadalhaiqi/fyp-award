@@ -65,7 +65,7 @@ class Results extends Component {
               className="btn btn-primary btn-block"
               to="/results/average-marks"
             >
-              Avergae marks per student
+              Average marks per student
             </NavLink>
           </div>
           <div className="p-1 col-sm-3">

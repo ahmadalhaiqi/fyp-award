@@ -15,7 +15,7 @@ class NomineeList extends Component {
   }
 
   componentDidMount() {
-    this.dbNominees.on("value", dataSnapshot => {
+    this.dbNominees.once("value", dataSnapshot => {
       let nominees = [];
 
       dataSnapshot.forEach(childSnapshot => {
