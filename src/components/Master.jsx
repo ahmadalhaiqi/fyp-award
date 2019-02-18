@@ -430,22 +430,60 @@ class Master extends Component {
               </th>
             </tr>
             <tr>
-              <th>Best Modelling & Simulation Project</th>
+              <th>The Most Innovative Winner</th>
               <td>
-                {master.me_modelling_best_winner &&
-                  master.me_modelling_best_winner.name}
+                {master.me_modelling_innovative_winner &&
+                  master.me_modelling_innovative_winner.name}
               </td>
               <td>
-                {master.me_modelling_best_winner &&
-                  master.me_modelling_best_winner.title}
+                {master.me_modelling_innovative_winner &&
+                  master.me_modelling_innovative_winner.title}
               </td>
               <td>
-                {master.me_modelling_best_winner &&
-                  master.me_modelling_best_winner.supervisor}
+                {master.me_modelling_innovative_winner &&
+                  master.me_modelling_innovative_winner.supervisor}
               </td>
               <td>
-                {master.me_modelling_best_winner &&
-                  master.me_modelling_best_winner.innovative_total}
+                {master.me_modelling_innovative_winner &&
+                  master.me_modelling_innovative_winner.innovative_total}
+              </td>
+            </tr>
+            <tr>
+              <th>The Most Technical Winner</th>
+              <td>
+                {master.me_modelling_technical_winner &&
+                  master.me_modelling_technical_winner.name}
+              </td>
+              <td>
+                {master.me_modelling_technical_winner &&
+                  master.me_modelling_technical_winner.title}
+              </td>
+              <td>
+                {master.me_modelling_technical_winner &&
+                  master.me_modelling_technical_winner.supervisor}
+              </td>
+              <td>
+                {master.me_modelling_technical_winner &&
+                  master.me_modelling_technical_winner.technical_total}
+              </td>
+            </tr>
+            <tr>
+              <th>The Most Marketable Winner</th>
+              <td>
+                {master.me_modelling_marketable_winner &&
+                  master.me_modelling_marketable_winner.name}
+              </td>
+              <td>
+                {master.me_modelling_marketable_winner &&
+                  master.me_modelling_marketable_winner.title}
+              </td>
+              <td>
+                {master.me_modelling_marketable_winner &&
+                  master.me_modelling_marketable_winner.supervisor}
+              </td>
+              <td>
+                {master.me_modelling_marketable_winner &&
+                  master.me_modelling_marketable_winner.marketable_total}
               </td>
             </tr>
 

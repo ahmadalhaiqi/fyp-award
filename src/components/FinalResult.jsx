@@ -81,7 +81,13 @@ class FinalResult extends Component {
       case "ME":
         switch (this.props.cat) {
           case "Modelling & Simulation":
-            data["me_modelling_best_winner"] = this.total_winner;
+            data[
+              "me_modelling_innovative_winner"
+            ] = this.state.innovative_winner;
+            data["me_modelling_technical_winner"] = this.state.technical_winner;
+            data[
+              "me_modelling_marketable_winner"
+            ] = this.state.marketable_winner;
             break;
           case "Design & Analysis":
             data["me_design_innovative_winner"] = this.state.innovative_winner;

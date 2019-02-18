@@ -1,799 +1,561 @@
 {
   "nominees": [
     {
-      "tab": "A1",
-      "dept": "EEEP",
-      "id": "EE092997",
-      "name": "Kiran Sohail",
-      "supervisor": "Hazlinda Bte Hakimie",
-      "title": "Robotic Arm in Hazardous Situations",
-      "cat": "Research & Development",
-      "judges": [
-        {
-          "name": "Dr. Nur Badariah Ahmad Mustafa",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        },
-        {
-          "name": "Assoc. Prof. Ir. Dr. Chong Kok Hen",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
-      ]
-    },
-    {
-      "tab": "A2",
-      "dept": "EEEP",
-      "id": "EE098800",
-      "name": "Lee Jun Yin",
-      "supervisor": "Assoc. Prof. Dr. Siti Fazlili Abdullah",
-      "title": "Enhancing the efficiency of CIGS thin film solar technology",
-      "cat": "Research & Development",
-      "judges": [
-        {
-          "name": "Dr. Nur Badariah Ahmad Mustafa",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        },
-        {
-          "name": "Assoc. Prof. Dr. Jamaludin bin Omar",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
-      ]
-    },
-    {
-      "tab": "A3",
-      "dept": "EEEP",
-      "id": "EE096565",
-      "name": "Chan Wei Hwa",
-      "supervisor": "Siti Fazlili Abdullah, Assoc. Prof. Dr.",
-      "title": "A Numerical Simulation Approach. A Method For Improving Thin Film Solar Cells Efficiency.",
-      "cat": "Research & Development",
-      "judges": [
-        {
-          "name": "Dr. Nur Badariah Ahmad Mustafa",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        },
-        {
-          "name": "Assoc. Prof. Dr. Jamaludin bin Omar",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
-      ]
-    },
-    {
-      "tab": "A4",
-      "dept": "EEEP",
-      "id": "EP096383",
-      "name": "Nur Izzah Binti Ibrahim",
-      "supervisor": "Assoc Prof Ir Dr Miszaina Osman",
-      "title": "Analysis of Non-conventional Lightning Protection System Performance For Commercial Buildings",
-      "cat": "Research & Development",
-      "judges": [
-        {
-          "name": "Ir. Razali Budin",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        },
-        {
-          "name": "Dr. Muhamad Safwan Bin Abd Rahman",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
-      ]
-    },
-    {
-      "tab": "A5",
-      "dept": "EEEP",
-      "id": "EP096735",
-      "name": "Noraini Nasution Binti Zamanhuri",
-      "supervisor": "Ya'Akob Raja Omar, Dr.",
-      "title": "The Investigation In Finding The Best Thermoelectric Generator Location For Higher Power Output",
-      "cat": "Research & Development",
-      "judges": [
-        {
-          "name": "Ir. Razali Budin",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        },
-        {
-          "name": "Dr. Muhamad Safwan Bin Abd Rahman",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
-      ]
-    },
-    {
-      "tab": "A7",
-      "dept": "EEEP",
-      "id": "EP097661",
-      "name": "Siti Chadijah Binti Mohd Nasir",
-      "supervisor": "Mohd Helmi Mansor",
-      "title": "Multistage Artificial Immune System for Static VAR Compensator Planning",
-      "cat": "Research & Development",
-      "judges": [
-        {
-          "name": "Ir. Razali Budin",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        },
-        {
-          "name": "Dr. Muhamad Safwan Bin Abd Rahman",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
-      ]
-    },
-    {
-      "tab": "A8",
-      "dept": "EEEP",
-      "id": "EP091250",
-      "name": "Muhammad Hasrul Bin Idris",
-      "supervisor": "Sabarina Jaafar",
-      "title": "Smart farming methods for mini garden with solar systems",
-      "cat": "Research & Development",
-      "judges": [
-        {
-          "name": "Ir. Mohamed Zaimir bin Mohamed Suffian",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        },
-        {
-          "name": "Dr. Muhamad Safwan Bin Abd Rahman",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
-      ]
-    },
-    {
-      "tab": "B1",
-      "dept": "EEEP",
-      "id": "CC094502",
-      "name": "Sethubathy A/L Narayanan",
-      "supervisor": "Ahmed Mubarak Al-Haiqi",
-      "title": "Web Based Gamification Assignment Access",
-      "cat": "Software Development",
-      "judges": [
-        {
-          "name": "Anthony Samy Rajamanickam",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        },
-        {
-          "name": "Dr. Goh Chin Hock",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
-      ]
-    },
-    {
-      "tab": "B2",
-      "dept": "EEEP",
-      "id": "CC096078",
-      "name": "Noor Iddeanna Binti Idris",
-      "supervisor": "Ahmed Mubarak Al-Haiqi",
-      "title": "Using Gamification to Achieve Energy Efficiency Based on Behavior Change",
-      "cat": "Software Development",
-      "judges": [
-        {
-          "name": "Anthony Samy Rajamanickam",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        },
-        {
-          "name": "Dr. Goh Chin Hock",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
-      ]
-    },
-    {
-      "tab": "B4",
-      "dept": "EEEP",
-      "id": "EE096544",
-      "name": "Muhammad Hazwan Bin Harun",
-      "supervisor": "Dr Tiagrajah V. Janahiraman",
-      "title": "Power Quality Disturbances Classification Using Wavelet Transforms and Support Vector Machine",
-      "cat": "Software Development",
-      "judges": [
-        {
-          "name": "Anthony Samy Rajamanickam",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        },
-        {
-          "name": "Assoc. Prof. Ir. Dr. Chong Kok Hen",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
-      ]
-    },
-    {
-      "tab": "B5",
-      "dept": "EEEP",
-      "id": "EE096979",
-      "name": "Muhammad Syazani Bin Muhammad Syafiq",
-      "supervisor": "Dr. Prajindra Sankar Krishnan",
-      "title": "Mobile Application e-Worksheet for Undergraduate Lab Experiments with User Input Interface",
-      "cat": "Software Development",
-      "judges": [
-        {
-          "name": "Ir. Mohamed Zaimir bin Mohamed Suffian",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        },
-        {
-          "name": "Dr. Goh Chin Hock",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
-      ]
-    },
-    {
-      "tab": "B6",
-      "dept": "EEEP",
-      "id": "EP094861",
-      "name": "Moaz Mohamed Daoud Sheikh Idris",
-      "supervisor": "Ida Suzana Bte Hussain",
-      "title": "Development of a space vector controlled inverter model using FPGA",
-      "cat": "Software Development",
-      "judges": [
-        {
-          "name": "Ir. Razali Budin",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        },
-        {
-          "name": "Dr. Tan Ching Sin",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
-      ]
-    },
-    {
-      "tab": "C1",
-      "dept": "EEEP",
-      "id": "EE097234",
-      "name": "Al-Kharasani, Wabel Mo-Hammed Ab-Dulwahab",
-      "supervisor": "Ahmad Wafi Bin Mahmood Zuhdi, Dr",
-      "title": "Solar Tracking System Using Mi-crocontroller",
-      "cat": "System Design",
-      "judges": [
-        {
-          "name": "Anthony Samy Rajamanickam",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        },
-        {
-          "name": "Dr. Tan Ching Sin",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
-      ]
-    },
-    {
-      "tab": "C2",
-      "dept": "EEEP",
-      "id": "EE096948",
-      "name": "Amira Syafika Bt Kamaruzaman",
-      "supervisor": "Hazlinda Bte Hakimie",
-      "title": "IOT Medical Waste Monitoring System",
-      "cat": "System Design",
-      "judges": [
-        {
-          "name": "Ammar Zolkipli",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        },
-        {
-          "name": "Dr. Goh Chin Hock",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
-      ]
-    },
-    {
-      "tab": "C3",
-      "dept": "EEEP",
-      "id": "EE096581",
-      "name": "Ali Amran Bin Nasrun",
-      "supervisor": "Cheah Cheng Lai, Prof. Madya Dr",
-      "title": "Solar Photovoltaic Performance Monitoring Based On IOT",
-      "cat": "System Design",
-      "judges": [
-        {
-          "name": "Anthony Samy Rajamanickam",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        },
-        {
-          "name": "Assoc. Prof. Ir. Dr. Chong Kok Hen",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
-      ]
-    },
-    {
-      "tab": "C4",
-      "dept": "EEEP",
-      "id": "EE094474",
-      "name": "Mohd Adam Bin Mohamad Azib",
-      "supervisor": "Ayuniza Ahmad",
-      "title": "Voice Control Home Appliances Using Microcontroller",
-      "cat": "System Design",
-      "judges": [
-        {
-          "name": "Ammar Zolkipli",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        },
-        {
-          "name": "Dr. Nur Badariah Ahmad Mustafa",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
-      ]
-    },
-    {
-      "tab": "C6",
-      "dept": "EEEP",
-      "id": "EE097104",
-      "name": "Faris Syahmi Samidi",
-      "supervisor": "Pn. Intan Shafinaz Bte Mustafa",
-      "title": "Intelligent Sensor Following Shopping Cart",
-      "cat": "System Design",
-      "judges": [
-        {
-          "name": "Ammar Zolkipli",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        },
-        {
-          "name": "Assoc. Prof. Ir. Dr. Chong Kok Hen",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
-      ]
-    },
-    {
-      "tab": "C7",
-      "dept": "EEEP",
-      "id": "EE096743",
-      "name": "Wan Nurul Nazifa Binti Wan Ahmad Hazmi @ Megat Puteh",
-      "supervisor": "Dr. Prajindra Sankar Krishnan",
-      "title": "Smart Restroom Occupancy Notification System Via Projector Display For Examination Hall Management",
-      "cat": "System Design",
-      "judges": [
-        {
-          "name": "Ammar Zolkipli",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        },
-        {
-          "name": "Assoc. Prof. Dr. Jamaludin bin Omar",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
-      ]
-    },
-    {
-      "tab": "C8",
-      "dept": "EEEP",
-      "id": "EP096359",
-      "name": "Che Mohamad Azfar Bin Che Afri",
-      "supervisor": "Assoc. Prof. Dr. Ungku Anisa Bte Ungku Amirulddin",
-      "title": "Modelling of Tidal Energy Power Generation System for Malaysia",
-      "cat": "System Design",
-      "judges": [
-        {
-          "name": "Ir. Mohamed Zaimir bin Mohamed Suffian",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        },
-        {
-          "name": "Dr. Tan Ching Sin",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
-      ]
-    },
-    {
-      "tab": "C9",
-      "dept": "EEEP",
-      "id": "EP092901",
-      "name": "Vasudevan S/O Mani",
-      "supervisor": "Aishah Binti Mohd Isa.Dr",
-      "title": "Design And Development Security System For Safety Box",
-      "cat": "System Design",
-      "judges": [
-        {
-          "name": "Ir. Mohamed Zaimir bin Mohamed Suffian",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        },
-        {
-          "name": "Dr. Tan Ching Sin",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
-      ]
-    },
-    {
       "tab": "D1",
       "dept": "ME",
-      "id": "ME097133",
-      "name": "Muhammad Arif Bin Lukeman",
-      "supervisor": "Yip Chan Heng",
-      "title": "Design and Development of a Swarf Removal Device",
+      "id": "ME097508",
+      "name": "Nireshah Asokumar",
+      "supervisor": "Anas Bin Muhamad Pauzi",
+      "title": "Low cost cyclone dust collector for medium sized workshop application",
       "cat": "Design & Analysis",
       "judges": [
         {
-          "name": "Zaimah Bte. Hasan",
+          "name": "Ir Dr Sivakumar",
           "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         },
-        {
-          "name": "Dr. Meenaloshini  Satgunam",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
+        { "name": "Dr.ansari", "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
       ]
     },
     {
       "tab": "D2",
       "dept": "ME",
-      "id": "ME096742",
-      "name": "Surajh Jonathan James",
-      "supervisor": "Hassan Bin Mohamed, Dr.",
-      "title": "Design and development of a self-balancing lightweight transport system",
+      "id": "ME098482",
+      "name": "MUHAMMAD ASHRAF BIN MAT AZMI",
+      "supervisor": "Hassan Mohamed, Dr",
+      "title": "Design and Development of a Portable Automatic Feeder for Domestic Aquatic Lives.",
       "cat": "Design & Analysis",
       "judges": [
         {
-          "name": "Ir. Tajul Ariffin",
+          "name": "Ir Assoc Prof Dr Mohd Khair",
           "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         },
-        {
-          "name": "Dr. Meenaloshini  Satgunam",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
+        { "name": "En.Anas", "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
       ]
     },
     {
       "tab": "D3",
       "dept": "ME",
-      "id": "ME096483",
-      "name": "Dhiviandran Chadaran",
-      "supervisor": "Mr Muhammad Fairuz Bin Abdul Jalal",
-      "title": "Design And Development Of Transmission Module For Home Service Robot",
+      "id": "ME098499",
+      "name": "Muhammad Syafiq Aiman Bin Muhammad Bazli",
+      "supervisor": "Dr Zolman bin Hari",
+      "title": "Design of Personal Development Tool (SB MindSpa®) using NLP Principles",
       "cat": "Design & Analysis",
       "judges": [
         {
-          "name": "Ir. Tajul Ariffin",
+          "name": "Ir Dr Sivakumar",
           "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         },
-        {
-          "name": "Dr. Meenaloshini  Satgunam",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
+        { "name": "Dr.Ansari", "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
       ]
     },
     {
       "tab": "D4",
       "dept": "ME",
-      "id": "ME096498",
-      "name": "Tutisvarran Viswanathan",
-      "supervisor": "Dr Firas Basim Ismail",
-      "title": "Design and Implementation of Intelligent Office Chair for Correct Sitting Postures : New Generation",
+      "id": "ME097809",
+      "name": "Hussain Bin Nor Azmi",
+      "supervisor": "Sami Salama Hussen Hajjaj, Dr. ",
+      "title": "Remote Controlled Robot Seeding (RoboSeeder) system for agriculture applications",
       "cat": "Design & Analysis",
       "judges": [
         {
-          "name": "Ir. Tajul Ariffin",
+          "name": "Ir Assoc Prof Dr Mohd Khair",
           "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         },
-        {
-          "name": "Dr. Meenaloshini  Satgunam",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
+        { "name": "En.Anas", "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
       ]
     },
     {
       "tab": "D5",
       "dept": "ME",
-      "id": "ME096517",
-      "name": "Afiqah Aleena Binti Azraimee",
-      "supervisor": "Dr Firas Basim Ismail",
-      "title": "Design and Implementation of Thermal Energy Harvesting Technology for COE UNITEN Utilities",
+      "id": "ME097889",
+      "name": "MOHD SHAFINAZ BIN MUHAMAD ZUKI",
+      "supervisor": "Sami Salama Hussen Hajjaj, Dr. ",
+      "title": "Remote monitoring and controlling of a Camera Dolly through IoT (the Internet of Things)",
       "cat": "Design & Analysis",
       "judges": [
         {
-          "name": "Muhammad Fairuz Bin Abdul Jalal",
+          "name": "Ir Assoc Prof Dr Mohd Khair",
           "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         },
-        {
-          "name": "Zaimah Bte. Hasan",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
+        { "name": "En.Anas", "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
       ]
     },
     {
       "tab": "D6",
       "dept": "ME",
-      "id": "ME095542",
-      "name": "Muhammad Mirza Danial Bin Zainee",
-      "supervisor": "Iszmir Nazmi Bin Ismail",
-      "title": "Design and Development of Marine Debris Collecting Robot",
+      "id": "ME097923",
+      "name": "MUHAMMAD ARIFF BIN HALIL",
+      "supervisor": "ISZMIR NAZMI BIN ISMAIL",
+      "title": "Design and Development of Silvershine Holes Puncher",
       "cat": "Design & Analysis",
       "judges": [
         {
-          "name": "Ir. Tajul Ariffin",
+          "name": "Ir Dr Sivakumar",
           "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         },
-        {
-          "name": "Dr. Meenaloshini  Satgunam",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
+        { "name": "Dr.Ansari", "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
       ]
     },
     {
       "tab": "D7",
       "dept": "ME",
-      "id": "ME096722",
-      "name": "Kanneshkumar A/L Arunasalan",
-      "supervisor": "Assoc.Prof.Dr.Mohamed Ansari M.N.",
-      "title": "Design Enhancement and Analysis of Thermoelectric Generator System (TEGs)",
+      "id": "me091552",
+      "name": "Md Mahamud Sultanur Rashid",
+      "supervisor": "Dr. Omar Suliman Zaroog",
+      "title": "Design of adjustable drilling machine table",
       "cat": "Design & Analysis",
       "judges": [
         {
-          "name": "Ir. Tajul Ariffin",
+          "name": "Ir Dr Sivakumar",
           "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         },
-        {
-          "name": "Zaimah Bte. Hasan",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
+        { "name": "Dr.Ansari", "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
       ]
     },
     {
       "tab": "D8",
       "dept": "ME",
-      "id": "ME097206",
-      "name": "Gajenthran Rajakumaran A/L Kanniappan",
-      "supervisor": "Norhazwani Abd Malek",
-      "title": "Design and Development of a Stream Litter Collector",
+      "id": "ME098556",
+      "name": "Norul Ilham Bin Noruddin",
+      "supervisor": "Dr Firas Basim Ismail",
+      "title": "Design and Development of Dual Power Generation Solar With Windmill Generator",
       "cat": "Design & Analysis",
       "judges": [
         {
-          "name": "Muhammad Fairuz Bin Abdul Jalal",
+          "name": "Ir Dr Sivakumar",
           "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         },
-        {
-          "name": "Zaimah Bte. Hasan",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
+        { "name": "Dr.Ansari", "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
       ]
     },
     {
-      "tab": "E1",
+      "tab": "D9",
       "dept": "ME",
-      "id": "ME095492",
-      "name": "Haravin Marimuthu",
-      "supervisor": "Gopinathan Muthaiyah",
-      "title": "Acid Esterification of Fish Oil for Ethyl Ester Production Using Homogeneus Catalyst",
-      "cat": "Experimental Research",
+      "id": "ME097645",
+      "name": "ASIAH BINTI ZULKIPLI",
+      "supervisor": "Dr Firas Basim Ismail",
+      "title": "Design and Fabrication of Smart Solar Grass Cutter",
+      "cat": "Design & Analysis",
       "judges": [
         {
-          "name": "Dr. Abdoulhadi Borhana",
+          "name": "Ir Dr Sivakumar",
           "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         },
-        {
-          "name": "Dr. Hassan Bin Mohamed",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
+        { "name": "Dr.Ansari", "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
       ]
     },
     {
-      "tab": "E2",
+      "tab": "D10",
       "dept": "ME",
-      "id": "ME095466",
-      "name": "Anindra Kugarajah",
-      "supervisor": "Juniza Binti Md Saad",
-      "title": "Pyrolysis Kinetic Analysis Of Poly Propylene",
-      "cat": "Experimental Research",
+      "id": "ME098518",
+      "name": "PRAVIN RAO A/L PRAKASH RAO",
+      "supervisor": "GOPINATHAN MUTHAIYAH",
+      "title": "DESIGN AND DEVELOPMENT OF LABORATORY SCALE MICROWAVE ASSISTED GLYCEROLYSIS REACTOR",
+      "cat": "Design & Analysis",
       "judges": [
         {
-          "name": "Dr. Hassan Bin Mohamed",
+          "name": "Ir Assoc Prof Dr Mohd Khair",
           "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         },
-        {
-          "name": "Zubaidi Faiesal Bin Mohamad Rafaai",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
+        { "name": "En.Anas", "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
       ]
     },
     {
-      "tab": "E3",
+      "tab": "D11",
       "dept": "ME",
-      "id": "ME095564",
-      "name": "Pavithran S/O Chandran",
-      "supervisor": "Dr.Ewe Lay Sheng",
-      "title": "The effect of different thickness on Microstructure and Acoustic properties of oil palm empty fruit bunch natural fibre with density 120kg/m^3",
-      "cat": "Experimental Research",
+      "id": "ME098529",
+      "name": "SATHEESHKUMAR A/L ARUMUGAM",
+      "supervisor": "Lim Chin Wai",
+      "title": "Comparative study between Waste Heat Recovery Systems using Steam Rankine Cycle and Organic Rankine Cycle for Power Generation",
+      "cat": "Design & Analysis",
       "judges": [
         {
-          "name": "Dr. Abdoulhadi Borhana",
+          "name": "Ir Dr Sivakumar",
           "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         },
-        {
-          "name": "Zubaidi Faiesal Bin Mohamad Rafaai",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
+        { "name": "Dr.Ansari", "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
       ]
     },
     {
-      "tab": "E4",
+      "tab": "D12",
       "dept": "ME",
-      "id": "ME096132",
-      "name": "Wan Nurul Athirah Binti Wan Nor Yuhaidi",
-      "supervisor": "Hassan Bin Mohamed",
-      "title": "Assessment of HVAC system performance and efficiency in minimizing energy consumption",
-      "cat": "Experimental Research",
+      "id": "ME098478",
+      "name": "MUHAMMAD AMIRUL AFIQ BIN SAMSUDIN",
+      "supervisor": "Juniza Md Saad",
+      "title": "DESIGN AND FABRICATION OF AUTOMATED PLANT WATERING SYSTEM VIA ARDUINO – BASED SENSOR POWERED BY PHOTOVOLTAIC (PV) PANELS POWER SUPPLY",
+      "cat": "Design & Analysis",
       "judges": [
         {
-          "name": "Dr. Abdoulhadi Borhana",
+          "name": "Ir Assoc Prof Dr Mohd Khair",
           "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         },
-        {
-          "name": "Muhammad Fairuz Bin Abdul Jalal",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
+        { "name": "En.Anas", "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
       ]
     },
     {
-      "tab": "E5",
+      "tab": "D13",
       "dept": "ME",
-      "id": "ME096492",
-      "name": "Santhia A/P Silbam",
-      "supervisor": "Vignesh Vicki",
-      "title": "Investigation on the effect of cellulose on the biodegradability of Kenaf/cellulose reinforced polymer biocomposites",
-      "cat": "Experimental Research",
+      "id": "ME097876",
+      "name": "Mohammad Nur Fahmi Bin Haris",
+      "supervisor": "Nurainaa Kabilmiharbi",
+      "title": "DESIGN AND ANALYSIS OF BITTER MELON CUTTING MACHINE",
+      "cat": "Design & Analysis",
       "judges": [
         {
-          "name": "Zaimah Bte. Hasan",
+          "name": "Ir Dr Sivakumar",
           "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         },
-        {
-          "name": "Zubaidi Faiesal Bin Mohamad Rafaai",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
+        { "name": "Dr.Ansari", "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
       ]
     },
     {
-      "tab": "E6",
+      "tab": "D14",
       "dept": "ME",
-      "id": "ME096493",
-      "name": "Sasidevan A/L Munusamy",
-      "supervisor": "Dr. Pua Fei Ling @ Grace Pua",
-      "title": "Synthesis and Characterization of Carbide Lime Waste Derived Solid Base Catalyst for Biodiesel Production",
-      "cat": "Experimental Research",
+      "id": "ME098541",
+      "name": "TEY KUAN JIAN",
+      "supervisor": "Nurainaa Kabilmiharbi",
+      "title": "DESIGN AND DEVELOPMENT OF COMPRESSED AIR OPERATED MINI VEHICLE",
+      "cat": "Design & Analysis",
       "judges": [
         {
-          "name": "Dr. Hassan Bin Mohamed",
+          "name": "Ir Assoc Prof Dr Mohd Khair",
           "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         },
-        {
-          "name": "Zubaidi Faiesal Bin Mohamad Rafaai",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
+        { "name": "En.Anas", "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
       ]
     },
     {
-      "tab": "E7",
+      "tab": "D15",
       "dept": "ME",
-      "id": "ME096484",
-      "name": "Fatin Nabilla Khairul Basir",
-      "supervisor": "Adlansyah Abd Rahman",
-      "title": "Design and development of rapid carboniser for water hyacinth eco-charcoal production",
-      "cat": "Experimental Research",
+      "id": "ME095519",
+      "name": "Mohd Zarif bin Zainal Abidin",
+      "supervisor": "Mohd Rashdan Isa",
+      "title": "Design and Development of a Smart Robot for Construction Site Drainage Inspection",
+      "cat": "Design & Analysis",
       "judges": [
         {
-          "name": "Dr. Abdoulhadi Borhana",
+          "name": "Ir Assoc Prof Dr Mohd Khair",
           "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         },
-        {
-          "name": "Dr. Hassan Bin Mohamed",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
+        { "name": "En.Anas", "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
       ]
     },
     {
-      "tab": "E8",
+      "tab": "R1",
       "dept": "ME",
-      "id": "ME096491",
-      "name": "Rameswaran A/L Balasubramaniam",
-      "supervisor": "Assoc.Prof.Dr.Mohamed Ansari.M.N.",
-      "title": "Effect of fibre loading and orientation on the mechanical properties of Kenaf/Carbon fibre hybrid composite for Automotive attenuator application",
+      "id": "ME097974",
+      "name": "TAN KUAN YOU",
+      "supervisor": "Hassan Mohamed, Dr",
+      "title": "Experimental study on improving heat transfer of thermoelectric generator for human body heat harvesting",
       "cat": "Experimental Research",
       "judges": [
+        { "name": "Dr.Omar", "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         {
-          "name": "Prof. Dr. Md. Mujibur Rahman",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        },
-        {
-          "name": "Zubaidi Faiesal Bin Mohamad Rafaai",
+          "name": "Dr.Abdoulhadi",
           "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         }
       ]
     },
     {
-      "tab": "E9",
+      "tab": "R2",
       "dept": "ME",
-      "id": "ME097236",
-      "name": "Mohammad L.M.Shaath",
-      "supervisor": "Assoc.Prof.Dr.Mohamed Ansari M.N.",
-      "title": "Characterization of Tungsten trioxide reinforced Poly(lactic acid) nanocomposites for 3D printing process",
+      "id": "ME098602",
+      "name": "Kisheen Rao A/L Gsangaya",
+      "supervisor": "Sami Salama Hussen Hajjaj, Dr. ",
+      "title": "Design and development of IoT remote Sensors for Agriculture Greenhouse and applications",
       "cat": "Experimental Research",
       "judges": [
+        { "name": "Dr.Omar", "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
         {
-          "name": "Dr. Abdoulhadi Borhana",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        },
-        {
-          "name": "Prof. Dr. Md. Mujibur Rahman",
+          "name": "Dr.Abdoulhadi",
           "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         }
       ]
     },
     {
-      "tab": "F1",
+      "tab": "R3",
       "dept": "ME",
-      "id": "ME096481",
-      "name": "Ainaa Syahirah Binti Ahmad Anuar",
-      "supervisor": "Saiful Hasmady Bin Abu Hassan, Dr.",
-      "title": "Development of a Spreadsheet-based Fuel Cell Simulator: Modeling 2D Flow in a Serpentine Channel",
+      "id": "ME098693",
+      "name": "MUHAMMAD AIDIL ZUHAIR B. ZAKARIYA",
+      "supervisor": "ISZMIR NAZMI BIN ISMAIL",
+      "title": "Design And Development of a Keyless Anti-Theft Bicycle Lock Syste",
+      "cat": "Experimental Research",
+      "judges": [
+        { "name": "Dr.Omar", "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        {
+          "name": "Dr.Abdoulhadi",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "tab": "R4",
+      "dept": "ME",
+      "id": "ME098452",
+      "name": "L SARRAVANAN A/L LINGANATHAN",
+      "supervisor": "Dr Firas Basim Ismail",
+      "title": "Design and Fabrication of Foot-steps Power Generation System",
+      "cat": "Experimental Research",
+      "judges": [
+        { "name": "Dr.Omar", "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        {
+          "name": "Dr.Abdoulhadi",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "tab": "R5",
+      "dept": "ME",
+      "id": "ME098418",
+      "name": "AFIQAH BINTI ABDUL JUMAAT",
+      "supervisor": "Nurfanizan Binti Mohd Afandi",
+      "title": "SYNTHESIS OF MWCNT’S WITH FLY ASHES FOR THE PRODUCTION OF THE SUSTAINABLE CONCRETE",
+      "cat": "Experimental Research",
+      "judges": [
+        { "name": "Dr.Omar", "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        {
+          "name": "Dr.Abdoulhadi",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "tab": "R6",
+      "dept": "ME",
+      "id": "ME098479",
+      "name": "MUHAMMAD AMIRUL MUSTAQIM BIN MOHD NOR",
+      "supervisor": "Nurfanizan Mohd Afandi",
+      "title": "The Effect of Acid Treatment in Synthesis of Aluminium Oxide and Limestone in Calcium Looping Process",
+      "cat": "Experimental Research",
+      "judges": [
+        { "name": "Dr.Omar", "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        {
+          "name": "Dr.Abdoulhadi",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "tab": "R7",
+      "dept": "ME",
+      "id": "ME096485",
+      "name": "Koghulan A/L Ganesan",
+      "supervisor": "Nurfanizan Mohd Afandi",
+      "title": "Synthesis of carbon based heavy metal filters for effluent using luffa and corn cob",
+      "cat": "Experimental Research",
+      "judges": [
+        { "name": "Dr.Yeo", "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { "name": "Dr.Halina", "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+      ]
+    },
+    {
+      "tab": "R8",
+      "dept": "ME",
+      "id": "ME098508",
+      "name": "NIELLAMBARE A/P NADUMARAN",
+      "supervisor": "GOPINATHAN MUTHAIYAH",
+      "title": "STUDY OF BIOGAS POTENTIAL BETWEEN PALM OIL MILL EFFULUENT (POME) AND CATTLE MANURE IN MALAYSIA WITH CO-DIGESTION METHOD",
+      "cat": "Experimental Research",
+      "judges": [
+        { "name": "Dr.Yeo", "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { "name": "Dr.Halina", "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+      ]
+    },
+    {
+      "tab": "R9",
+      "dept": "ME",
+      "id": "ME098695",
+      "name": "NUR FAZLIN BT MOHD ZAMANI",
+      "supervisor": "GOPINATHAN MUTHAIYAH",
+      "title": "STUDY BIOGAS POTENTIAL BETWEEN PRE-TREATED CATTLE MANURE AND PALM OIL MILL EFFLUENT (POME) USING CO-DIGESTION METHOD",
+      "cat": "Experimental Research",
+      "judges": [
+        { "name": "Dr.Yeo", "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { "name": "Dr.Halina", "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+      ]
+    },
+    {
+      "tab": "R10",
+      "dept": "ME",
+      "id": "ME097951",
+      "name": "LAKSHWANATH A/L JAGANATH",
+      "supervisor": "Zainudin Bin Yahya, Haji",
+      "title": "DESIGN AND DEVELOPMENT OF HYBRID WIND-HYDRO POWER GENERATION SYSTEM AT MERSING, JOHOR, MALAYSIA",
+      "cat": "Experimental Research",
+      "judges": [
+        { "name": "Dr.Yeo", "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { "name": "Dr.Halina", "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+      ]
+    },
+    {
+      "tab": "R11",
+      "dept": "ME",
+      "id": "ME096466",
+      "name": "Mohammad Amir Haziq Bin Jailani",
+      "supervisor": "Mohamed Ansari M. Nainar, Assoc Prof. Dr.",
+      "title": "Durability study on Kenaf/Epoxy Composites",
+      "cat": "Experimental Research",
+      "judges": [
+        { "name": "Dr.Yeo", "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { "name": "Dr.Halina", "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+      ]
+    },
+    {
+      "tab": "R12",
+      "dept": "ME",
+      "id": "ME096499",
+      "name": "VENGADESH A/L PASUPATHI",
+      "supervisor": "Mohamed Ansari M. Nainar, Assoc Prof. Dr.",
+      "title": "The effect of Kenaf fibre reinforcement on putruded circular cross-section profiles",
+      "cat": "Experimental Research",
+      "judges": [
+        { "name": "Dr.Yeo", "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { "name": "Dr.Halina", "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+      ]
+    },
+    {
+      "tab": "R13",
+      "dept": "ME",
+      "id": "ME098545",
+      "name": "THINESH A/L SASEETHARAN",
+      "supervisor": "Juniza Md Saad",
+      "title": "Development of Biofuel Briquette from Banana Residue for Rural Energy Application",
+      "cat": "Experimental Research",
+      "judges": [
+        { "name": "Dr.Yeo", "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] },
+        { "name": "Dr.Halina", "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
+      ]
+    },
+    {
+      "tab": "S1",
+      "dept": "ME",
+      "id": "ME098500",
+      "name": "Muhammad Syafiq Bin Mohamed Fairuz",
+      "supervisor": "FARRUKH HAFIZ NAGI, PROF. DR",
+      "title": "Study of Baggage Handling system for Resource Planning",
       "cat": "Modelling & Simulation",
       "judges": [
         {
-          "name": "Prof. Dr. Md. Mujibur Rahman",
+          "name": "Dr.Lim Chin Wai",
           "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         },
         {
-          "name": "Muhammad Fairuz Bin Abdul Jalal",
+          "name": "Dr.Mohd Syukri Yahya",
           "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         }
       ]
     },
     {
-      "tab": "F2",
+      "tab": "S2",
       "dept": "ME",
-      "id": "ME096137",
-      "name": "Fatin Fatihah Binti Abdul Majid",
-      "supervisor": "Ir. Dr. Hasril Hasini",
-      "title": "Numerical investigation on heat transfer and fluid flow characteristic of the effect of various oblique fin arrangements in liquid cold plate (LCP)",
+      "id": "ME098474",
+      "name": "MOHD HARRIZ AMRY BIN JAFFRY",
+      "supervisor": "ISZMIR NAZMI BIN ISMAIL",
+      "title": "Design and Development of Arduino Based Classroom Attendance System",
       "cat": "Modelling & Simulation",
       "judges": [
         {
-          "name": "Prof. Dr. Md. Mujibur Rahman",
+          "name": "Dr.Lim Chin Wai",
           "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         },
         {
-          "name": "Muhammad Fairuz Bin Abdul Jalal",
+          "name": "Dr.Mohd Syukri Yahya",
           "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         }
       ]
     },
     {
-      "tab": "F3",
+      "tab": "S3",
       "dept": "ME",
-      "id": "ME096480",
-      "name": "Ahmad Safwan Bin Ahmad Khusairi",
-      "supervisor": "Norhazwani Abd Malek",
-      "title": "Investigation of Syngas Combustion at Gas Turbine Combustor for Power Generation using CFD Approach",
+      "id": "ME098413",
+      "name": "ABDUL SYAZLAN BIN ABDUL NASSER",
+      "supervisor": "vignesh vicki",
+      "title": "Effect of Nanofluid on Thermal Management System of 18650 Lithium-Ion Battery Module at Different Charging and Discharging Rate",
       "cat": "Modelling & Simulation",
       "judges": [
         {
-          "name": "Prof. Dr. Md. Mujibur Rahman",
+          "name": "Dr.Lim Chin Wai",
           "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         },
         {
-          "name": "Dr. Hassan Bin Mohamed",
+          "name": "Dr.Mohd Syukri Yahya",
           "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         }
       ]
     },
     {
-      "tab": "G1",
+      "tab": "S4",
+      "dept": "ME",
+      "id": "ME098442",
+      "name": "Goo Wei Hong",
+      "supervisor": "vignesh vicki",
+      "title": "Investigation on nanofluid based thermal management system for 18650 lithium-ion battery module with fixed contact surface",
+      "cat": "Modelling & Simulation",
+      "judges": [
+        {
+          "name": "Dr.Lim Chin Wai",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        },
+        {
+          "name": "Dr.Mohd Syukri Yahya",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "tab": "S5",
+      "dept": "ME",
+      "id": "ME098468",
+      "name": "Mohamad Shahmim Bin Mohd Zu",
+      "supervisor": "Dr Firas Basim Ismail",
+      "title": "Design and Development of Super Chiller Intercooler System for Air Intake in Combustion Engine",
+      "cat": "Modelling & Simulation",
+      "judges": [
+        {
+          "name": "Dr.Lim Chin Wai",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        },
+        {
+          "name": "Dr.Mohd Syukri Yahya",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "tab": "S6",
+      "dept": "ME",
+      "id": "ME097926",
+      "name": "AFIFF BIN M MOKTHAR",
+      "supervisor": "Dr. Saiful Hasmady bin Abu Hassan",
+      "title": "Development of a Spreadsheet-based Solver of Energy Transport in a Plate Heat Exchanger",
+      "cat": "Modelling & Simulation",
+      "judges": [
+        {
+          "name": "Dr.Lim Chin Wai",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        },
+        {
+          "name": "Dr.Mohd Syukri Yahya",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "tab": "S1",
       "dept": "CE",
-      "id": "CE096169",
-      "name": "Shanmugan Nagappan",
-      "supervisor": "Dr. Agusril",
-      "title": "The effect of short drink cans and steel fibers on the flexural performance f concrete beams",
-      "cat": "Structure & Materials",
+      "id": "CE098682",
+      "name": "HONG WEI SHENG",
+      "supervisor": "DAUD BIN MOHAMAD",
+      "title": "Analysis chemical contain of used diapers polymer for self-curing agent in high performance concrete",
+      "cat": "Highway & Geotechnical",
       "judges": [
         {
-          "name": "Wong Jee Khai",
+          "name": "Puan Nur Liyana Mohd Kamal",
           "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         },
         {
-          "name": "Shuhairy Bin Norhisham",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
-      ]
-    },
-    {
-      "tab": "G2",
-      "dept": "CE",
-      "id": "CE096512",
-      "name": "Shaikh Muhammad Mubin Bin Shaik Ahmad Fadzil",
-      "supervisor": "Dr. Agusril",
-      "title": "An experimental study on how steel and drink can fibers affect the impact resistance in fiber-reinforced concrete",
-      "cat": "Structure & Materials",
-      "judges": [
-        {
-          "name": "Wong Jee Khai",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        },
-        {
-          "name": "Shuhairy Bin Norhisham",
+          "name": "Dr Ean Lee Woen",
           "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         }
       ]
@@ -801,227 +563,607 @@
     {
       "tab": "H1",
       "dept": "CE",
-      "id": "CE097093",
-      "name": "Ainul Zakiyyah Binti Zulkifli",
-      "supervisor": "Rasyikin Binti Roslan",
-      "title": "Bio-Cardiidae For Soft Soil Improvement",
-      "cat": "Highway & Geotechnical",
-      "judges": [
-        {
-          "name": "Dr. Agusril",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        },
-        {
-          "name": "Dr. Ing. Zarina Binti Itam",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
-      ]
-    },
-    {
-      "tab": "H2",
-      "dept": "CE",
-      "id": "CE099018",
-      "name": "Siti Natassia Binti Nazri",
+      "id": "CE096516",
+      "name": "Navind a/l velmurugu ",
       "supervisor": "Norlela Ismail",
-      "title": "A feasibility study on the application green technology for highway features",
+      "title": "A feasibility study on the development of bus terminal next to IOI city mall, Putrajaya",
       "cat": "Highway & Geotechnical",
       "judges": [
         {
-          "name": "Wong Jee Khai",
+          "name": "Dr Ean Lee Woen",
           "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         },
         {
-          "name": "Shuhairy Bin Norhisham]",
+          "name": "Puan Nur Liyana Mohd Kamal",
           "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         }
       ]
     },
     {
-      "tab": "H3",
+      "tab": "W1",
       "dept": "CE",
-      "id": "CE095254",
-      "name": "Hana Alias Binti Zulkifli",
-      "supervisor": "Norlela Ismail",
-      "title": "A study towards the comfortability of walking in Wangsa Maju, Kuala Lumpur",
-      "cat": "Highway & Geotechnical",
-      "judges": [
-        {
-          "name": "Dr. Agusril",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        },
-        {
-          "name": "Dr. Ing. Zarina Binti Itam]",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
-      ]
-    },
-    {
-      "tab": "H4",
-      "dept": "CE",
-      "id": "CE092984",
-      "name": "Nur Hezrina Hashrim",
-      "supervisor": "Dr. Chow Ming Fai",
-      "title": "Development of fibre mat using water hyacinth for soil erosion control",
-      "cat": "Highway & Geotechnical",
-      "judges": [
-        {
-          "name": "Dr. Agusril",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        },
-        {
-          "name": "Dr. Ing. Zarina Binti Itam",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
-      ]
-    },
-    {
-      "tab": "H5",
-      "dept": "CE",
-      "id": "CE098703",
-      "name": "Muayad Saleh Ahmed Obaid",
-      "supervisor": "Dr. Mohamed Hafez",
-      "title": "Use fly ash and molten slag to build stone columns",
-      "cat": "Highway & Geotechnical",
-      "judges": [
-        {
-          "name": "Dr. Agusril",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        },
-        {
-          "name": "Dr. Ing. Zarina Binti Itam",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
-      ]
-    },
-    {
-      "tab": "H6",
-      "dept": "CE",
-      "id": "CE097235",
-      "name": "Abduallah Alkeelany",
-      "supervisor": "Dr.Mohamed Ahmed Hafiz",
-      "title": "replacement of aggregate with boiler slag and fly ash in slag column",
-      "cat": "Highway & Geotechnical",
-      "judges": [
-        {
-          "name": "Dr. Agusril",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        },
-        {
-          "name": "Dr. Ing. Zarina Binti Itam",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
-      ]
-    },
-    {
-      "tab": "J1",
-      "dept": "CE",
-      "id": "CE096109",
-      "name": "Intan Nurfadhliana Binti Fairus",
-      "supervisor": "Datin Prof Ir Dr Lariyah Mohd Sidek",
-      "title": "Study on Good Agricultural Practices for Enhancement of Stormwater System in Cameron Highland",
-      "cat": "Water & Waste-water",
-      "judges": [
-        {
-          "name": "Dr. Md. Shabbir Hossain",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        },
-        {
-          "name": "Pn. Norfariza binti Ismail",
-          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
-      ]
-    },
-    {
-      "tab": "J2",
-      "dept": "CE",
-      "id": "CE097393",
-      "name": "Saleh Mohmad Saleh Alowaidat",
+      "id": "CE098138",
+      "name": "AHMAD IZZAD AMEER BIN MOHD ZAMRI",
       "supervisor": "Gasim Hayder Ahmed Salih, Dr.",
-      "title": "Application of activated carbon and water hyacinth in domestic wastewater treatment",
-      "cat": "Water & Waste-water",
+      "title": "Quality Assessment of Roof Rainwater Harvesting System",
+      "cat": "Highway & Geotechnical",
       "judges": [
         {
-          "name": "Dr. Md. Shabbir Hossain",
+          "name": "Dr Ean Lee Woen",
           "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         },
         {
-          "name": "Pn. Norfariza binti Ismail",
+          "name": "Puan Nur Liyana Mohd Kamal",
           "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         }
       ]
     },
     {
-      "tab": "J3",
+      "tab": "S2",
       "dept": "CE",
-      "id": "CE097013",
-      "name": "Mohammed Ahmed Abdullah Abdulwasea",
-      "supervisor": "Gasim Hayder Ahmed Salih, Dr.",
-      "title": "Quality Assessment of Roof Harvested Rainwater",
-      "cat": "Water & Waste-water",
+      "id": "CE097976",
+      "name": "YUOVENDRA A/L N. SIVAGANESE",
+      "supervisor": "Zarina Binti Itam, Dr. Ing",
+      "title": "Optimization of sequestering carbon dioxide dosage in concrete",
+      "cat": "Highway & Geotechnical",
       "judges": [
         {
-          "name": "Dr. Md. Shabbir Hossain",
+          "name": "Puan Nur Liyana Mohd Kamal",
           "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         },
         {
-          "name": "Pn. Norfariza binti Ismail",
+          "name": "Dr Ean Lee Woen",
           "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         }
       ]
     },
     {
-      "tab": "J4",
+      "tab": "S3",
       "dept": "CE",
-      "id": "CE097428",
-      "name": "Mohamed Imad Eldin Khalafalla Ahmed",
-      "supervisor": "Dr. Md. Shabbir Hossain",
-      "title": "Application of activated carbon in removing pollutants from water",
-      "cat": "Water & Waste-water",
+      "id": "CE098167",
+      "name": "Roshan Charles Razali",
+      "supervisor": "Wong Leong Sing",
+      "title": "Eco Savvy Bricks: A Green Alternative",
+      "cat": "Highway & Geotechnical",
       "judges": [
         {
-          "name": "Wong Jee Khai",
+          "name": "Dr Ean Lee Woen",
           "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         },
         {
-          "name": "Shuhairy Bin Norhisham",
+          "name": "Puan Nur Liyana Mohd Kamal",
           "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         }
       ]
     },
     {
-      "tab": "J5",
-      "dept": "CE",
-      "id": "CE098135",
-      "name": "Mohammed Abdullah Mahmoud Sabri",
-      "supervisor": "Dr. Chow Ming Fai",
-      "title": "Heavy metal and pesticides treatment using water hyacinth biochar in agricultural runoff",
-      "cat": "Water & Waste-water",
+      "tab": "S1",
+      "dept": "EEEP",
+      "id": "CC098267",
+      "name": "TI JIAN HAN",
+      "supervisor": "Dr. MOHD ZAFRI BIN BAHARUDDIN",
+      "title": "Facial Recognition Door Lock System",
+      "cat": "Software Development",
       "judges": [
         {
-          "name": "Dr. Md. Shabbir Hossain",
+          "name": "Prof. Ir. Dr. Yap Keem Siah",
           "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         },
         {
-          "name": "Pn. Norfariza binti Ismail",
+          "name": "Mr. Ammar Zolkipli",
           "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         }
       ]
     },
     {
-      "tab": "J6",
-      "dept": "CE",
-      "id": "CE096510",
-      "name": "Putri Nur Iman Binti Khairuddin",
-      "supervisor": "Sir Nazirul Mubin",
-      "title": "The kinetic study of biofilm in an IFAS system",
-      "cat": "Water & Waste-water",
+      "tab": "S2",
+      "dept": "EEEP",
+      "id": "CC098244",
+      "name": "LOGA A/L SIVARAJA",
+      "supervisor": "Azrul Ghazali",
+      "title": "Fingerprint Based Biometric Attendance System",
+      "cat": "Software Development",
       "judges": [
         {
-          "name": "Dr. Md. Shabbir Hossain",
+          "name": "Prof. Ir. Dr. Yap Keem Siah",
           "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         },
         {
-          "name": "Pn. Norfariza binti Ismail",
+          "name": "Mr. Ammar Zolkipli",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "tab": "S3",
+      "dept": "EEEP",
+      "id": "EE098243",
+      "name": "Lim Khar Yee",
+      "supervisor": "Dr Tiagrajah V. Janahiraman",
+      "title": "Leaf Classification using Combination of Local Binary Pattern and Histogram of Oriented Gradients.",
+      "cat": "Software Development",
+      "judges": [
+        {
+          "name": "Prof. Ir. Dr. Yap Keem Siah",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        },
+        {
+          "name": "Mr. Ammar Zolkipli",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "tab": "S4",
+      "dept": "EEEP",
+      "id": "EE091206",
+      "name": "MUHAMMAD SAIFFUDDIN BIN UNTONG",
+      "supervisor": "Dr Farah Hani Nordin",
+      "title": "Monitoring Management System of Electrical Appliance Usage via THING SPEAK Webserver",
+      "cat": "Software Development",
+      "judges": [
+        {
+          "name": "Prof. Ir. Dr. Yap Keem Siah",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        },
+        {
+          "name": "Mr. Ammar Zolkipli",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "tab": "D1",
+      "dept": "EEEP",
+      "id": "EE097941",
+      "name": "Nadhrah Hayati Binti Mohd Sebri",
+      "supervisor": "Siti Fazlili Abdul-lah, Assoc. Prof. Dr",
+      "title": "Optimized Energy Saving Light Control For Intelligent Homes",
+      "cat": "System Design",
+      "judges": [
+        {
+          "name": "Dr. Leong Yeng Weng",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        },
+        {
+          "name": "Dr. Syahril Idris",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "tab": "D2",
+      "dept": "EEEP",
+      "id": "EE098252",
+      "name": "Navind Raj A/L Ashokumar",
+      "supervisor": "Dr Azni Wati Binti Azizan",
+      "title": "Developing A Sign-To-Speech Translator Using Pic Controller",
+      "cat": "System Design",
+      "judges": [
+        {
+          "name": "Dr. Leong Yeng Weng",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        },
+        {
+          "name": "Dr. Syahril Idris",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "tab": "D3",
+      "dept": "EEEP",
+      "id": "EE098725",
+      "name": "Karamjit Singh A/L Harminder",
+      "supervisor": "Dr Jamaludin Bin Omar",
+      "title": "An Energy Efficient Intelligent Lighting And Fan System Using Sound Activation for Homes",
+      "cat": "System Design",
+      "judges": [
+        {
+          "name": "Dr. Leong Yeng Weng",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        },
+        {
+          "name": "Dr. Syahril Idris",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "tab": "D4",
+      "dept": "EEEP",
+      "id": "EE099215",
+      "name": "Pathineshwra A/L Vesvanathan",
+      "supervisor": "Dr Jamaludin Bin Omar",
+      "title": "Automated Water Management System For Residential Area",
+      "cat": "System Design",
+      "judges": [
+        {
+          "name": "Prof. Dr. Razali Jidin",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        },
+        {
+          "name": "Mr. Muhammad Amri Bin Abdul Karim",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "tab": "D5",
+      "dept": "EEEP",
+      "id": "EE094944",
+      "name": "Mohd Firas Bin Juanda",
+      "supervisor": "Dr Jamaludin Bin Omar",
+      "title": "Measuring Liquid Volume In A Tank Using Arduino And Ultrasonic Sensor",
+      "cat": "System Design",
+      "judges": [
+        {
+          "name": "Prof. Dr. Razali Jidin",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        },
+        {
+          "name": "Mr. Muhammad Amri Bin Abdul Karim",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "tab": "D6",
+      "dept": "EEEP",
+      "id": "EE099126",
+      "name": "Nor Saiyidah Binti Azri",
+      "supervisor": "Ahmad Wafi",
+      "title": "Electronics Assistance for Blind Using Microcontroller",
+      "cat": "System Design",
+      "judges": [
+        {
+          "name": "Prof. M. A. Hannan",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        },
+        {
+          "name": "Mr. Rosman Bin Hamzah",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "tab": "D7",
+      "dept": "EEEP",
+      "id": "EE097175",
+      "name": "Prabaagaran a/l s.balakrishnan",
+      "supervisor": "Mohamd  zafri bin baharuddin",
+      "title": "A high impact approach to introducing earth science concept using augmented reality",
+      "cat": "System Design",
+      "judges": [
+        {
+          "name": "Prof. M. A. Hannan",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        },
+        {
+          "name": "Mr. Rosman Bin Hamzah",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "tab": "D8",
+      "dept": "EEEP",
+      "id": "EE096079",
+      "name": "Thanesh Gesan A/L Sandra Gesan",
+      "supervisor": "Dr. Jehana Ermy Binti Jamaluddin",
+      "title": "Internet of Things (IoT) based Smart Lighting System for Energy Efficiency",
+      "cat": "System Design",
+      "judges": [
+        {
+          "name": "Dr. Leong Yeng Weng",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        },
+        {
+          "name": "Dr. Syahril Idris",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "tab": "D9",
+      "dept": "EEEP",
+      "id": "EE097606",
+      "name": "Raudhah Izyan Binti Rohimi",
+      "supervisor": "Ker Pin Jern, Dr.",
+      "title": "DEVELOPMENT OF PORTABLE NEAR INFRARED OPTICAL SENSING PROTOTYPE TO DETERMINE INHIBITOR CONTENT IN TRANSFORMER INSULATING OIL",
+      "cat": "System Design",
+      "judges": [
+        {
+          "name": "Prof. Ir. Dr. Mohd Zainal Abidin Abd Kadir",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        },
+        {
+          "name": "Dr. Azwan Mahmud",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "tab": "D10",
+      "dept": "EEEP",
+      "id": "EE097470",
+      "name": "MOHAMMAD MUSLIM BIN KHALIL",
+      "supervisor": "Dr Farah Hani Nordin",
+      "title": "Electrical Appliances Remote Control System Using Bluetooth",
+      "cat": "System Design",
+      "judges": [
+        {
+          "name": "Prof. Dr. Razali Jidin",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        },
+        {
+          "name": "Mr. Muhammad Amri Bin Abdul Karim",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "tab": "D11",
+      "dept": "EEEP",
+      "id": "EP098298",
+      "name": "Muhammad Azim Shah Bin Badli Shah",
+      "supervisor": "Muhamad Safwan Bin Abd Rahman, Dr.",
+      "title": "Development of Smart Grounding Monitoring System for Transmission Lines",
+      "cat": "System Design",
+      "judges": [
+        {
+          "name": "Prof. Ir. Dr. Mohd Zainal Abidin Abd Kadir",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        },
+        {
+          "name": "Dr. Azwan Mahmud",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "tab": "D12",
+      "dept": "EEEP",
+      "id": "EP098305",
+      "name": "Muhammad Nurhazman Bin Norayeen",
+      "supervisor": "Kuan Tze Mei, Miss",
+      "title": "Development of Solar Energy Generation in Three Dimensions",
+      "cat": "System Design",
+      "judges": [
+        {
+          "name": "Prof. M. A. Hannan",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        },
+        {
+          "name": "Mr. Rosman Bin Hamzah",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "tab": "D13",
+      "dept": "EEEP",
+      "id": "EP097430",
+      "name": "Omar Ahmed Balbahaith ",
+      "supervisor": "Mrs. Karmila ",
+      "title": "Generating Micro Hydropower from Draining Water",
+      "cat": "System Design",
+      "judges": [
+        {
+          "name": "Prof. Ir. Dr. Mohd Zainal Abidin Abd Kadir",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        },
+        {
+          "name": "Dr. Azwan Mahmud",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "tab": "D14",
+      "dept": "EEEP",
+      "id": "EE098255",
+      "name": "Nur Fatin Faradila Binti Nor Faizal",
+      "supervisor": "Dr Ammar",
+      "title": "Iot-Based Ground Fault Detection In Photovoltaic Solar Systems",
+      "cat": "System Design",
+      "judges": [
+        {
+          "name": "Prof. Dr. Razali Jidin",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        },
+        {
+          "name": "Mr. Muhammad Amri Bin Abdul Karim",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "tab": "D15",
+      "dept": "EEEP",
+      "id": "EE098232",
+      "name": "CHONG ZHI HONG",
+      "supervisor": "Azrul Ghazali",
+      "title": "Automatic Number Plate Recognition System Using Tensor Flow Object Detection",
+      "cat": "System Design",
+      "judges": [
+        {
+          "name": "Prof. Dr. Razali Jidin",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        },
+        {
+          "name": "Mr. Muhammad Amri Bin Abdul Karim",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "tab": "R1",
+      "dept": "EEEP",
+      "id": "EE098251",
+      "name": "MUHAMMAD YUNUS BIN YAKOB",
+      "supervisor": "Mohd Zafri bin Baharuddin",
+      "title": "Telecontrol of Prosthetic Robot Hand Using Myo Armband",
+      "cat": "Research & Development",
+      "judges": [
+        {
+          "name": "Dr. Leong Yeng Weng",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        },
+        {
+          "name": "Dr. Syahril Idris",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "tab": "R2",
+      "dept": "EEEP",
+      "id": "EE095360",
+      "name": "SATHISWARAN A/L JAYARAMAN",
+      "supervisor": "Ker Pin Jern, Dr.",
+      "title": "Design and Development of a sound energy harvester for phone battery charger",
+      "cat": "Research & Development",
+      "judges": [
+        {
+          "name": "AP Ir. Dr. Nadia Tan Mei Lin",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        },
+        {
+          "name": "Ir. Abdul Rahim Bin Ibrahim",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "tab": "R3",
+      "dept": "EEEP",
+      "id": "EE097472",
+      "name": "MOHAMAD ADIB BIN RAHMAT",
+      "supervisor": "Dr Zeti Akma Rhazali",
+      "title": "Installation and commissioning of an amateur radio station in UNITEN for receiving amateur satellites signal.",
+      "cat": "Research & Development",
+      "judges": [
+        {
+          "name": "Prof. M. A. Hannan",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        },
+        {
+          "name": "Mr. Rosman Bin Hamzah",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "tab": "R4",
+      "dept": "EEEP",
+      "id": "EP097962",
+      "name": "Muhammad Faris Bazli Bin Hassan",
+      "supervisor": "AP Ir. Dr. Miszaina Osman",
+      "title": "Shielding and Grounding Design to Minimize Electromagnetic Interference (EMI) on Electronic Systems in Power Substations",
+      "cat": "Research & Development",
+      "judges": [
+        {
+          "name": "Prof. Ir. Dr. Mohd Zainal Abidin Abd Kadir",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        },
+        {
+          "name": "Dr. Azwan Mahmud",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "tab": "R5",
+      "dept": "EEEP",
+      "id": "EP097936",
+      "name": "Benjamin Wong Wan An",
+      "supervisor": "Miss Lee Hui Jing",
+      "title": "Simulation of Indium Arsenide (InAs) Thermophotovoltaic Cell ",
+      "cat": "Research & Development",
+      "judges": [
+        {
+          "name": "AP Ir. Dr. Nadia Tan Mei Lin",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        },
+        {
+          "name": "Ir. Abdul Rahim Bin Ibrahim",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "tab": "R6",
+      "dept": "EEEP",
+      "id": "EP097998",
+      "name": "Foon Chun Yin",
+      "supervisor": "Kuan Tze Mei, Miss",
+      "title": "The Impact and Review of Parameters used in High Voltage Transmission Line Rating used in TNB",
+      "cat": "Research & Development",
+      "judges": [
+        {
+          "name": "Prof. Ir. Dr. Mohd Zainal Abidin Abd Kadir",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        },
+        {
+          "name": "Dr. Azwan Mahmud",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "tab": "R7",
+      "dept": "EEEP",
+      "id": "EP097831",
+      "name": "NOOR FARAHAIN IDRIS",
+      "supervisor": "ASSOC. PROF. DR. UNGKU ANISA BTE. UNGKU AMIRULDDIN",
+      "title": "INVESTIGATING THE IMPACT OF BEHIND-THE-METER ENERGY STORAGE (BMES) SYSTEM TO IMPROVE ENERGY EFFICIENCY OF BUILDINGS",
+      "cat": "Research & Development",
+      "judges": [
+        {
+          "name": "AP Ir. Dr. Nadia Tan Mei Lin",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        },
+        {
+          "name": "Ir. Abdul Rahim Bin Ibrahim",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "tab": "R8",
+      "dept": "EEEP",
+      "id": "EE098258",
+      "name": "Ooi Way Liang",
+      "supervisor": "Dr Ammar",
+      "title": "Modelling And Simulation Of An Ac Microgrid For Harmonic Study",
+      "cat": "Research & Development",
+      "judges": [
+        {
+          "name": "AP Ir. Dr. Nadia Tan Mei Lin",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        },
+        {
+          "name": "Ir. Abdul Rahim Bin Ibrahim",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "tab": "R9",
+      "dept": "EEEP",
+      "id": "EE098228",
+      "name": "Arvind A/L Natarajan",
+      "supervisor": "Prof Dr Ong Hang See",
+      "title": "Design And Implementation Of Electrical Coupling Interfaces For Measuring Harmonics And Noise Of Low Voltage Power Line",
+      "cat": "Research & Development",
+      "judges": [
+        {
+          "name": "AP Ir. Dr. Nadia Tan Mei Lin",
+          "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        },
+        {
+          "name": "Ir. Abdul Rahim Bin Ibrahim",
           "marks": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         }
       ]
