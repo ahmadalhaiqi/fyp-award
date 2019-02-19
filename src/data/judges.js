@@ -1,5 +1,5 @@
 const judges = [
-  { id: "1", code: "001", dept: "ME", name: "Dr.ansari" },
+  { id: "1", code: "001", dept: "ME", name: "Dr.Ansari" },
   { id: "2", code: "002", dept: "ME", name: "Ir Assoc Prof Dr Mohd Khair" },
   { id: "3", code: "003", dept: "ME", name: "Ir Dr Sivakumar" },
   { id: "4", code: "004", dept: "ME", name: "En.Anas" },
