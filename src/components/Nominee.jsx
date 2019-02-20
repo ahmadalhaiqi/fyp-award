@@ -39,13 +39,15 @@ class Nominee extends Component {
 
   onSubmit(e) {
     e.preventDefault();
-    this.state.nominee.judges.find(
-      j => j["name"] === this.props.judge.name
-    ).marks = this.state.marks;
+    const marks = this.state.marks;
 
-    this.dbNominees
-      .child(this.props.nominee[".key"])
-      .update(this.state.nominee);
+    let query = database
+      .ref("nominees/" + this.props.nominee[".key"] + "/judges/")
+      .orderByChild("/name")
+      .equalTo(this.props.judge.name);
+    query.once("child_added", function(snapshot) {
+      snapshot.ref.update({ marks: marks });
+    });
 
     window.scrollTo(0, 0);
   }
